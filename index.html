@@ -63,21 +63,89 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2 text-uppercase fw-semibold small">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3 text-uppercase fw-semibold small">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="tentang-kami.html">Tentang Kami</a></li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown dropdown-mega">
                         <a class="nav-link dropdown-toggle" href="layanan.html" id="navLayananDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
-                        <ul class="dropdown-menu" aria-labelledby="navLayananDropdown">
-                            <li><a class="dropdown-item" href="layanan.html#bangun-baru">Konstruksi Bangun Baru</a></li>
-                            <li><a class="dropdown-item" href="layanan.html#renovasi">Renovasi Struktural & Parsial</a></li>
-                            <li><a class="dropdown-item" href="layanan.html#desain-rab">Desain Arsitektur & RAB</a></li>
-                            <li><a class="dropdown-item fw-bold-accent" href="layanan.html">Lihat Semua Layanan</a></li>
-                        </ul>
+                        <div class="dropdown-menu dropdown-menu-mega" aria-labelledby="navLayananDropdown">
+                            <div class="row g-3">
+                                <!-- Kolom 1: Konstruksi Utama -->
+                                <div class="col-lg-6">
+                                    <div class="dropdown-header-custom text-uppercase mb-2 pb-1 border-bottom">
+                                        <i class="bi bi-bricks text-warning me-1"></i> Konstruksi Utama
+                                    </div>
+                                    <div class="d-flex flex-column gap-1">
+                                        <a class="dropdown-item-mega d-flex align-items-start gap-2 p-2" href="layanan.html#bangun-baru">
+                                            <div class="dim-icon text-warning"><i class="bi bi-house-door-fill"></i></div>
+                                            <div>
+                                                <div class="dim-title">Bangun Rumah Baru</div>
+                                                <div class="dim-desc">Pembangunan hunian & villa mulai dari nol</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item-mega d-flex align-items-start gap-2 p-2" href="layanan.html#renovasi">
+                                            <div class="dim-icon text-warning"><i class="bi bi-hammer"></i></div>
+                                            <div>
+                                                <div class="dim-title">Renovasi Bangunan</div>
+                                                <div class="dim-desc">Renovasi total, parsial & penambahan lantai</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item-mega d-flex align-items-start gap-2 p-2" href="layanan.html#komersial">
+                                            <div class="dim-icon text-warning"><i class="bi bi-buildings-fill"></i></div>
+                                            <div>
+                                                <div class="dim-title">Gedung & Komersial</div>
+                                                <div class="dim-desc">Konstruksi ruko, kantor, gudang & toko</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Kolom 2: Desain & Spesialis -->
+                                <div class="col-lg-6">
+                                    <div class="dropdown-header-custom text-uppercase mb-2 pb-1 border-bottom">
+                                        <i class="bi bi-compass text-warning me-1"></i> Desain & Spesialis
+                                    </div>
+                                    <div class="d-flex flex-column gap-1">
+                                        <a class="dropdown-item-mega d-flex align-items-start gap-2 p-2" href="layanan.html#desain-rab">
+                                            <div class="dim-icon text-warning"><i class="bi bi-pencil-square"></i></div>
+                                            <div>
+                                                <div class="dim-title">Desain Arsitektur & RAB</div>
+                                                <div class="dim-desc">Gambar kerja 3D DED & kalkulasi RAB detail</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item-mega d-flex align-items-start gap-2 p-2" href="layanan.html#interior">
+                                            <div class="dim-icon text-warning"><i class="bi bi-palette-fill"></i></div>
+                                            <div>
+                                                <div class="dim-title">Interior & Finishing</div>
+                                                <div class="dim-desc">Kitchen set, partisi, plafon & wall panel</div>
+                                            </div>
+                                        </a>
+                                        <a class="dropdown-item-mega d-flex align-items-start gap-2 p-2" href="layanan.html#maintenance">
+                                            <div class="dim-icon text-warning"><i class="bi bi-wrench-adjustable-circle-fill"></i></div>
+                                            <div>
+                                                <div class="dim-title">Maintenance Bangunan</div>
+                                                <div class="dim-desc">Pemeliharaan berkala & inspeksi struktur</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Footer Dropdown: Fitur Kalkulator & Link Semua Layanan -->
+                            <div class="dropdown-mega-footer mt-3 pt-3 border-top d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
+                                <a href="layanan.html#kalkulator-estimasi" class="dropdown-calculator-link d-inline-flex align-items-center gap-2 text-decoration-none">
+                                    <span class="badge bg-warning text-dark fw-bold text-uppercase px-2 py-1"><i class="bi bi-calculator me-1"></i>Simulasi</span>
+                                    <span class="small fw-bold text-navy">Kalkulator Estimasi Biaya Bangun &raquo;</span>
+                                </a>
+                                <a href="layanan.html" class="small fw-bold text-accent text-decoration-none">
+                                    Lihat Semua Layanan <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="portofolio.html">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portofolio.html">Portofolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="blog.html">Artikel</a></li>
-                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-nav-cta" href="kontak.html"><i class="bi bi-whatsapp me-1"></i>Konsultasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
                 </ul>
             </div>
         </div>
@@ -96,26 +164,6 @@
                     <div class="d-flex flex-wrap gap-3 hero-anim-4">
                         <a href="kontak.html" class="btn btn-accent btn-lg px-4 py-3 text-uppercase"><i class="bi bi-whatsapp me-2"></i>Konsultasi Sekarang</a>
                         <a href="portofolio.html" class="btn btn-outline-light-2 btn-lg px-4 py-3 text-uppercase">Lihat Portofolio</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row hero-indicators hero-anim-4">
-                <div class="col-4">
-                    <div class="hi-item">
-                        <span class="hi-num">10+</span>
-                        <span class="hi-label">Tahun<br>Pengalaman</span>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="hi-item">
-                        <span class="hi-num">150+</span>
-                        <span class="hi-label">Proyek<br>Selesai</span>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="hi-item">
-                        <span class="hi-num"><i class="bi bi-patch-check-fill"></i></span>
-                        <span class="hi-label">Profesional &<br>Terpercaya</span>
                     </div>
                 </div>
             </div>
@@ -286,32 +334,6 @@
         </div>
     </section>
 
-    <!-- =====================================================
-         09. STATISTIK / PENCAPAIAN
-         ===================================================== -->
-    <section class="py-5 stats-section bg-navy text-white text-center">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-6 col-md-3">
-                    <div class="stat-value"><span class="counter" data-target="10" data-suffix="+">0</span></div>
-                    <p class="stat-label mb-0">Tahun Pengalaman</p>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-value"><span class="counter" data-target="150" data-suffix="+">0</span></div>
-                    <p class="stat-label mb-0">Proyek Selesai</p>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-value"><span class="counter" data-target="50" data-suffix="+">0</span></div>
-                    <p class="stat-label mb-0">Tenaga Profesional</p>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-value"><span class="counter" data-target="98" data-suffix="%">0</span></div>
-                    <p class="stat-label mb-0">Kepuasan Klien</p>
-                </div>
-            </div>
-            <!-- Catatan: angka di atas adalah placeholder, sesuaikan dengan data riil perusahaan sebelum publikasi -->
-        </div>
-    </section>
 
     <!-- =====================================================
          10. TESTIMONIAL
@@ -396,52 +418,68 @@
          ===================================================== -->
     <footer class="site-footer py-5 bg-navy text-white">
         <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
+            <div class="row g-4 justify-content-between">
+                <!-- Kolom 1: Profil Perusahaan -->
+                <div class="col-lg-4 col-md-6 mb-2 mb-lg-0">
                     <h2 class="h5 mb-3 text-accent"><i class="bi bi-cone-striped me-2"></i>PT SINERGI KONSTRUKSI</h2>
-                    <p class="text-white-50 small">Badan hukum pelaksana konstruksi terpercaya dengan jaminan kekuatan struktural, presisi kalkulasi anggaran, dan ketepatan waktu serah terima.</p>
-                    <div class="d-flex gap-2 mt-3">
+                    <p class="text-white-50 small mb-3">Badan hukum pelaksana konstruksi terpercaya dengan jaminan kekuatan struktural, presisi kalkulasi anggaran, dan ketepatan waktu serah terima.</p>
+                    <div class="d-flex gap-2">
                         <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
                         <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
                         <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
                         <a href="#" class="social-icon" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
                         <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
                     </div>
-                    <!-- Catatan: ganti href social media di atas dengan tautan akun resmi perusahaan -->
                 </div>
-                <div class="col-lg-2 col-md-6">
+
+                <!-- Kolom 2: Navigasi Cepat -->
+                <div class="col-lg-2 col-md-3 col-6 mb-2 mb-lg-0">
                     <h3 class="footer-heading text-uppercase h6">Perusahaan</h3>
-                    <ul class="list-unstyled footer-links d-flex flex-column gap-2">
+                    <ul class="list-unstyled footer-links d-flex flex-column gap-2 mb-0">
+                        <li><a href="index.html">Beranda</a></li>
                         <li><a href="tentang-kami.html">Tentang Kami</a></li>
-                        <li><a href="portofolio.html">Proyek</a></li>
+                        <li><a href="portofolio.html">Portofolio</a></li>
                         <li><a href="blog.html">Artikel</a></li>
-                        <li><a href="kontak.html">Karier</a></li>
+                        <li><a href="kontak.html">Kontak Kami</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6">
+
+                <!-- Kolom 3: Layanan Kami -->
+                <div class="col-lg-3 col-md-3 col-6 mb-2 mb-lg-0">
                     <h3 class="footer-heading text-uppercase h6">Layanan</h3>
-                    <ul class="list-unstyled footer-links d-flex flex-column gap-2">
-                        <li><a href="layanan.html#bangun-baru">Konstruksi Rumah</a></li>
-                        <li><a href="layanan.html#renovasi">Renovasi</a></li>
-                        <li><a href="layanan.html">Gedung & Komersial</a></li>
-                        <li><a href="layanan.html">Interior</a></li>
-                        <li><a href="layanan.html#desain-rab">Struktur & Sipil</a></li>
+                    <ul class="list-unstyled footer-links d-flex flex-column gap-2 mb-0">
+                        <li><a href="layanan.html#bangun-baru">Bangun Rumah Baru</a></li>
+                        <li><a href="layanan.html#renovasi">Renovasi Bangunan</a></li>
+                        <li><a href="layanan.html#komersial">Gedung & Komersial</a></li>
+                        <li><a href="layanan.html#desain-rab">Desain & RAB Detail</a></li>
+                        <li><a href="layanan.html#interior">Interior & Finishing</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6">
-                    <h3 class="footer-heading text-uppercase h6">Kontak</h3>
-                    <div class="footer-contact-item"><i class="bi bi-geo-alt"></i><span>Jl. Monginsidi No. 6, Klojen, Kota Malang</span></div>
-                    <div class="footer-contact-item"><i class="bi bi-whatsapp"></i><span>+62 812-3456-7890</span></div>
-                    <div class="footer-contact-item"><i class="bi bi-envelope"></i><span>info@kontraktorbangunan.web.id</span></div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <h3 class="footer-heading text-uppercase h6">Jam Operasional</h3>
-                    <p class="text-white-50 small mb-1">Senin–Jumat<br>08.00 – 17.00 WIB</p>
-                    <p class="text-white-50 small mb-0">Sabtu<br>08.00 – 14.00 WIB</p>
+
+                <!-- Kolom 4: Kontak & Jam Operasional -->
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="footer-heading text-uppercase h6">Kontak & Lokasi</h3>
+                    <div class="footer-contact-item mb-2">
+                        <i class="bi bi-geo-alt-fill text-warning"></i>
+                        <span>Jl. Monginsidi No. 6, Klojen, Kota Malang</span>
+                    </div>
+                    <div class="footer-contact-item mb-2">
+                        <i class="bi bi-whatsapp text-warning"></i>
+                        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="text-white-50 text-decoration-none hover-yellow">+62 812-3456-7890</a>
+                    </div>
+                    <div class="footer-contact-item mb-3">
+                        <i class="bi bi-envelope-fill text-warning"></i>
+                        <a href="mailto:info@kontraktorbangunan.web.id" class="text-white-50 text-decoration-none hover-yellow">info@kontraktorbangunan.web.id</a>
+                    </div>
+                    <div class="footer-hours-box">
+                        <div class="small fw-bold text-white mb-1"><i class="bi bi-clock me-1 text-warning"></i>Jam Operasional:</div>
+                        <div class="text-white-50 small">Senin – Jumat: 08.00 – 17.00 WIB</div>
+                        <div class="text-white-50 small">Sabtu: 08.00 – 14.00 WIB</div>
+                    </div>
                 </div>
             </div>
-            <hr class="mt-5 mb-4" style="border-color:rgba(255,255,255,0.12);">
-            <div class="footer-bottom pt-3 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center">
+            <hr class="mt-4 mt-lg-5 mb-4" style="border-color:rgba(255,255,255,0.12);">
+            <div class="footer-bottom pt-2 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
                 <p class="mb-0 small text-white-50">&copy; 2026 PT Sinergi Konstruksi Utama. Hak Cipta Dilindungi Hukum Negara.</p>
                 <div class="d-flex gap-3">
                     <a href="#">Privacy Policy</a>
@@ -450,6 +488,11 @@
             </div>
         </div>
     </footer>
+
+    <!-- Tombol Rollback / Scroll to Top -->
+    <button id="btnScrollTop" class="btn-scroll-top" aria-label="Kembali ke atas" title="Kembali ke atas">
+        <i class="bi bi-chevron-up"></i>
+    </button>
 
     <!-- Tombol WhatsApp Mengambang -->
     <a href="https://wa.me/6281234567890?text=Halo%20PT%20Sinergi%20Konstruksi%20Utama%2C%20saya%20ingin%20bertanya%20mengenai%20jasa%20konstruksi." class="btn-wa-float" target="_blank" rel="noopener" aria-label="Hubungi kami via WhatsApp">

@@ -187,6 +187,27 @@ document.addEventListener("DOMContentLoaded", function () {
         window.addEventListener("scroll", toggleNavbarShadow);
     }
 
+    /* ---------- ROLLBACK / SCROLL TO TOP ---------- */
+    const btnScrollTop = document.getElementById("btnScrollTop");
+    if (btnScrollTop) {
+        const toggleScrollTopBtn = () => {
+            if (window.scrollY > 300) {
+                btnScrollTop.classList.add("is-visible");
+            } else {
+                btnScrollTop.classList.remove("is-visible");
+            }
+        };
+        toggleScrollTopBtn();
+        window.addEventListener("scroll", toggleScrollTopBtn, { passive: true });
+
+        btnScrollTop.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    }
+
     /* ---------- COUNTER ANIMASI STATISTIK ---------- */
     const counters = document.querySelectorAll(".counter");
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
