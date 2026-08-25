@@ -5,33 +5,85 @@
    ========================================================= */
 
 // 1. DATA PORTOFOLIO (Pengganti Database — GEO & AEO Friendly)
+// Catatan: deskripsi & durasi bersifat ilustratif — sesuaikan dengan data proyek riil.
 const dataPortofolio = [
     {
-        nama: "Pembangunan Rumah Elite Minimalis",
+        nama: "Pembangunan Rumah Tinggal Modern Tropis",
         lokasi: "Klojen, Kota Malang",
         luas: "240 m²",
+        durasi: "6 Bulan",
         status: "Selesai",
         kategori: "bangun",
+        kategoriLabel: "Bangun Baru",
         tahun: "2025",
-        gambar: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=700&auto=format&fit=crop"
+        layanan: "Bangun Rumah Baru",
+        deskripsi: "Pembangunan hunian 2 lantai dari pondasi cakar ayam hingga serah terima kunci. Mengusung konsep sirkulasi udara optimal, pencahayaan alami maksimal, dan struktur beton SNI bertulang tahan gempa.",
+        gambar: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop"
     },
     {
         nama: "Renovasi Fasad & Interior Ruko 3 Lantai",
         lokasi: "Lowokwaru, Kota Malang",
         luas: "180 m²",
+        durasi: "3.5 Bulan",
         status: "Selesai",
         kategori: "renovasi",
+        kategoriLabel: "Renovasi",
         tahun: "2025",
-        gambar: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=700&auto=format&fit=crop"
+        layanan: "Renovasi Bangunan",
+        deskripsi: "Peremajaan total fasad ruko komersial dengan ACP dan curtain wall kaca, penataan interior kantor lantai 1 & 2, serta perbaikan sistem waterproofing dak atap yang bocor menahun.",
+        gambar: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        nama: "Pembangunan Villa Mewah & Kolam Renang",
+        lokasi: "Kota Batu, Jawa Timur",
+        luas: "360 m²",
+        durasi: "8 Bulan",
+        status: "Selesai",
+        kategori: "bangun",
+        kategoriLabel: "Bangun Baru",
+        tahun: "2025",
+        layanan: "Bangun Rumah Baru",
+        deskripsi: "Konstruksi villa resort kontemporer dengan infinity pool, struktur dinding penahan tanah (DPT) lereng bukit yang kokoh, serta aksen finishing batu alam andesit dan kayu ulin.",
+        gambar: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop"
     },
     {
         nama: "Konstruksi Gudang & Pabrik Industri",
-        lokasi: "Singosari, Kabupaten Malang",
-        luas: "1200 m²",
+        lokasi: "Singosari, Kab. Malang",
+        luas: "1.200 m²",
+        durasi: "10 Bulan (Berjalan)",
         status: "Dalam Proses",
         kategori: "komersial",
+        kategoriLabel: "Komersial",
         tahun: "2026",
-        gambar: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=700&auto=format&fit=crop"
+        layanan: "Gedung & Komersial",
+        deskripsi: "Pembangunan fasilitas pergudangan logistik dengan rangka baja WF bentang lebar 24 meter, lantai cor beton trowel hardener heavy duty, dan saluran drainase kawasan terpadu.",
+        gambar: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        nama: "Renovasi Total & Tambah Lantai 2 Hunian",
+        lokasi: "Sukun, Kota Malang",
+        luas: "160 m²",
+        durasi: "4 Bulan",
+        status: "Selesai",
+        kategori: "renovasi",
+        kategoriLabel: "Renovasi",
+        tahun: "2025",
+        layanan: "Renovasi Bangunan",
+        deskripsi: "Pekerjaan suntik pondasi cakar ayam, pengecoran dak beton lantai 2, penambahan 3 kamar tidur baru, penggantian rangka atap baja ringan, dan instalasi kelistrikan MEP baru.",
+        gambar: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        nama: "Showroom Komersial & Kantor 2 Lantai",
+        lokasi: "Blimbing, Kota Malang",
+        luas: "320 m²",
+        durasi: "5 Bulan",
+        status: "Selesai",
+        kategori: "komersial",
+        kategoriLabel: "Komersial",
+        tahun: "2026",
+        layanan: "Gedung & Komersial",
+        deskripsi: "Pembangunan gedung showroom dua lantai bertema industrial modern dengan lantai granit 80x80, partisi kaca tempered, pintu otomatis, dan instalasi spotlight track lighting.",
+        gambar: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800&auto=format&fit=crop"
     }
 ];
 
@@ -80,12 +132,58 @@ const dataFaqBeranda = [
     { q: "Apakah tim melakukan survey lokasi sebelum penawaran?", a: "Ya, survey dan analisa lapangan dilakukan terlebih dahulu agar RAB dan penawaran yang diberikan sesuai dengan kondisi riil di lokasi proyek." }
 ];
 
+// 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
+const dataArtikel = [
+    {
+        judul: "Cara Menilai Kualitas Campuran Beton Cor Mutu K-300 di Lapangan",
+        kategori: "sipil-dasar",
+        kategoriLabel: "Sipil Dasar",
+        tanggal: "12 Jan 2026",
+        waktuBaca: "4 Menit",
+        url: "artikel/cara-menilai-kualitas-beton-k-300.html",
+        gambar: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=700",
+        ringkasan: "Panduan teknis lapangan untuk menguji kualitas beton cor mutu K-300: uji slump cone, rasio air-semen, silinder uji lab, dan proses curing hidrasi beton."
+    },
+    {
+        judul: "Strategi Menyusun RAB Rumah Agar Terhindar Dari Pembengkakan",
+        kategori: "manajemen",
+        kategoriLabel: "Manajemen",
+        tanggal: "28 Jan 2026",
+        waktuBaca: "5 Menit",
+        url: "artikel/strategi-menyusun-rab-bangunan.html",
+        gambar: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=700",
+        ringkasan: "Langkah runtut mengunci volume material bangunan sipil utama, pemisahan WBS, alokasi pos kontingensi 5-10%, dan kontrak kerja SPK mengikat."
+    },
+    {
+        judul: "Panduan Lengkap Mengurus Izin PBG Bangunan Gedung",
+        kategori: "legalitas",
+        kategoriLabel: "Legalitas",
+        tanggal: "19 Feb 2026",
+        waktuBaca: "4 Menit",
+        url: "artikel/panduan-mengurus-izin-pbg-bangunan.html",
+        gambar: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=700",
+        ringkasan: "Memahami alur perizinan Persetujuan Bangunan Gedung (PBG) pengganti IMB melalui portal resmi SIMBG Kementerian PUPR agar pembangunan legal dan aman."
+    }
+];
+
 document.addEventListener("DOMContentLoaded", function () {
 
     /* ---------- RENDER PORTOFOLIO (Halaman Portofolio Penuh) ---------- */
     const gridPortofolio = document.getElementById("portfolio-grid");
     if (gridPortofolio) {
-        renderProyek(dataPortofolio);
+        // Cek apakah ada parameter kategori di URL (dikirim dari link Halaman Layanan)
+        const paramKategori = new URLSearchParams(window.location.search).get("kategori");
+        if (paramKategori && ["bangun", "renovasi", "komersial"].includes(paramKategori)) {
+            filterPortofolio(paramKategori);
+        } else {
+            renderProyek(dataPortofolio);
+        }
+    }
+
+    /* ---------- RENDER ARTIKEL (Halaman Blog Penuh) ---------- */
+    const gridArtikel = document.getElementById("blog-grid");
+    if (gridArtikel) {
+        renderArtikel(dataArtikel);
     }
 
     /* ---------- RENDER PORTOFOLIO UNGGULAN (Beranda) ---------- */
@@ -275,9 +373,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const totalBiaya = hargaPerMeter * luas;
 
+            let namaTipe = "Rumah Hunian Standar";
+            if (tipe === "mewah") namaTipe = "Rumah Hunian Mewah";
+            else if (tipe === "ruko") namaTipe = "Ruko / Bangunan Komersial";
+
             const hasilBox = document.getElementById("hasilKalkulator");
             document.getElementById("txtHargaMeter").innerText = "Rp " + hargaPerMeter.toLocaleString("id-ID") + " / m²";
             document.getElementById("txtTotalBiaya").innerText = "Rp " + totalBiaya.toLocaleString("id-ID");
+
+            const waBtn = hasilBox.querySelector("a");
+            if (waBtn) {
+                const pesan = `Halo PT. Mujtahid Purwo, saya telah menghitung estimasi biaya di website:%0A%0A` +
+                              `*Tipe Bangunan:* ${encodeURIComponent(namaTipe)}%0A` +
+                              `*Luas Bangunan:* ${luas} m²%0A` +
+                              `*Harga Per Meter:* Rp ${hargaPerMeter.toLocaleString("id-ID")}%0A` +
+                              `*Taksiran Total:* Rp ${totalBiaya.toLocaleString("id-ID")}%0A%0A` +
+                              `Mohon info ketersediaan jadwal survey dan konsultasi RAB detail.`;
+                waBtn.href = `https://wa.me/6288989643555?text=${pesan}`;
+            }
+
             hasilBox.classList.remove("d-none");
         });
     }
@@ -292,8 +406,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const layanan = document.getElementById("jenisLayanan").value;
             const detail = document.getElementById("detailProyek").value;
 
-            const nomorWA = "6281234567890"; // Ganti nomor WhatsApp admin di sini
-            const templatePesan = `Halo PT Sinergi Konstruksi Utama, saya ingin mengajukan konsultasi proyek:%0A%0A` +
+            const nomorWA = "6288989643555"; // WhatsApp admin PT. Mujtahid Purwo
+            const templatePesan = `Halo PT. Mujtahid Purwo, saya ingin mengajukan konsultasi proyek:%0A%0A` +
                                   `*Nama Klien:* ${encodeURIComponent(nama)}%0A` +
                                   `*Lokasi Proyek:* ${encodeURIComponent(lokasi)}%0A` +
                                   `*Jenis Layanan:* ${encodeURIComponent(layanan)}%0A` +
@@ -307,23 +421,167 @@ document.addEventListener("DOMContentLoaded", function () {
 /* ---------- RENDER PORTOFOLIO (Grid Penuh + Filter) ---------- */
 function renderProyek(proyekArray) {
     const gridPortofolio = document.getElementById("portfolio-grid");
+    if (!gridPortofolio) return;
     gridPortofolio.innerHTML = "";
+
+    if (proyekArray.length === 0) {
+        gridPortofolio.innerHTML = `
+            <div class="col-12 text-center py-5">
+                <i class="bi bi-inboxes display-4 text-muted d-block mb-3"></i>
+                <p class="text-muted mb-0">Belum ada proyek pada kategori ini.</p>
+            </div>`;
+        return;
+    }
+
     proyekArray.forEach(proyek => {
         const badgeColor = proyek.status === "Selesai" ? "bg-success" : "bg-warning text-dark";
+        const idxAsli = dataPortofolio.indexOf(proyek);
         gridPortofolio.innerHTML += `
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden">
-                    <img src="${proyek.gambar}" class="card-img-top" alt="${proyek.nama}" style="height: 230px; object-fit: cover;" loading="lazy">
-                    <div class="card-body p-4">
-                        <span class="badge ${badgeColor} mb-2">${proyek.status}</span>
-                        <h5 class="card-title text-navy mb-3">${proyek.nama}</h5>
-                        <p class="card-text text-muted small mb-1"><i class="bi bi-geo-alt me-2 text-warning"></i>${proyek.lokasi}</p>
-                        <p class="card-text text-muted small"><i class="bi bi-rulers me-2 text-warning"></i>Luas: ${proyek.luas}</p>
+            <div class="col-md-6 col-lg-4 reveal is-visible">
+                <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden bg-white d-flex flex-column">
+                    <div class="position-relative">
+                        <img src="${proyek.gambar}" alt="${proyek.nama}" style="height: 220px; width: 100%; object-fit: cover;" loading="lazy">
+                        <span class="badge ${badgeColor} position-absolute top-0 start-0 m-3 px-3 py-2 text-uppercase fw-bold">${proyek.status}</span>
+                        <span class="badge bg-navy text-accent position-absolute top-0 end-0 m-3 px-3 py-2 text-uppercase fw-bold">${proyek.kategoriLabel || 'Proyek'}</span>
+                    </div>
+                    <div class="card-body p-4 d-flex flex-column flex-grow-1">
+                        <h3 class="h5 text-navy fw-bold mb-2">${proyek.nama}</h3>
+                        <div class="d-flex flex-wrap gap-3 small text-muted-navy mb-3">
+                            <span><i class="bi bi-geo-alt-fill text-warning me-1"></i>${proyek.lokasi}</span>
+                            <span><i class="bi bi-rulers text-warning me-1"></i>${proyek.luas}</span>
+                        </div>
+                        <p class="text-muted-navy small mb-4 flex-grow-1">${proyek.deskripsi}</p>
+                        <div class="mt-auto pt-3 border-top d-flex flex-column flex-sm-row gap-2">
+                            <button onclick="lihatDetailProyek(${idxAsli})" class="btn btn-outline-navy btn-sm w-100 flex-sm-fill fw-bold text-uppercase py-2">
+                                <i class="bi bi-eye me-1"></i>Detail
+                            </button>
+                            <a href="https://wa.me/6288989643555?text=Halo%20PT.%20Mujtahid%20Purwo%2C%20saya%20tertarik%20dengan%20proyek%20${encodeURIComponent(proyek.nama)}." target="_blank" rel="noopener" class="btn btn-accent btn-sm w-100 flex-sm-fill fw-bold text-uppercase py-2 text-center">
+                                <i class="bi bi-whatsapp me-1"></i>Tanya WA
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         `;
     });
+}
+
+/* ---------- MODAL DETAIL PROYEK ---------- */
+function lihatDetailProyek(index) {
+    const proyek = dataPortofolio[index];
+    if (!proyek) return;
+
+    const badgeColor = proyek.status === "Selesai" ? "bg-success" : "bg-warning text-dark";
+    const pesanWA = `Halo PT. Mujtahid Purwo, saya tertarik dengan portofolio "${proyek.nama}" (${proyek.lokasi}) dan ingin berkonsultasi untuk proyek serupa.`;
+
+    document.getElementById("modalDetailProyekLabel").innerText = proyek.nama;
+    document.getElementById("modalDetailProyekBody").innerHTML = `
+        <div class="position-relative mb-3">
+            <img src="${proyek.gambar}" alt="${proyek.nama}" class="w-100" style="max-height: 380px; object-fit: cover;">
+            <span class="badge ${badgeColor} position-absolute top-0 end-0 m-3 px-3 py-2 text-uppercase fw-bold">${proyek.status}</span>
+        </div>
+        <div class="row g-2 mb-3 small bg-light p-3 border">
+            <div class="col-6 col-sm-4"><strong><i class="bi bi-geo-alt-fill text-warning me-1"></i>Lokasi:</strong><div class="text-navy">${proyek.lokasi}</div></div>
+            <div class="col-6 col-sm-4"><strong><i class="bi bi-rulers text-warning me-1"></i>Luas:</strong><div class="text-navy">${proyek.luas}</div></div>
+            <div class="col-6 col-sm-4"><strong><i class="bi bi-clock-history text-warning me-1"></i>Durasi:</strong><div class="text-navy">${proyek.durasi}</div></div>
+            <div class="col-6 col-sm-4"><strong><i class="bi bi-bricks text-warning me-1"></i>Layanan:</strong><div class="text-navy">${proyek.layanan}</div></div>
+            <div class="col-6 col-sm-4"><strong><i class="bi bi-calendar3 text-warning me-1"></i>Tahun:</strong><div class="text-navy">${proyek.tahun}</div></div>
+            <div class="col-6 col-sm-4"><strong><i class="bi bi-patch-check-fill text-warning me-1"></i>Kualitas:</strong><div class="text-navy">Standar SNI</div></div>
+        </div>
+        <h6 class="fw-bold text-navy mb-2">Deskripsi Pelaksanaan:</h6>
+        <p class="text-muted-navy small mb-4">${proyek.deskripsi}</p>
+        <a href="https://wa.me/6288989643555?text=${encodeURIComponent(pesanWA)}" target="_blank" rel="noopener" class="btn btn-accent w-100 py-3 text-uppercase fw-bold">
+            <i class="bi bi-whatsapp me-2"></i>Konsultasikan Proyek Serupa via WhatsApp
+        </a>
+    `;
+
+    const modalEl = document.getElementById("modalDetailProyek");
+    if (modalEl && window.bootstrap) {
+        new bootstrap.Modal(modalEl).show();
+    }
+}
+
+/* ---------- RENDER ARTIKEL (Grid Penuh + Filter) ---------- */
+function renderArtikel(artikelArray) {
+    const gridArtikel = document.getElementById("blog-grid");
+    if (!gridArtikel) return;
+    gridArtikel.innerHTML = "";
+
+    if (artikelArray.length === 0) {
+        gridArtikel.innerHTML = `
+            <div class="col-12 text-center py-5">
+                <i class="bi bi-inboxes display-4 text-muted d-block mb-3"></i>
+                <p class="text-muted mb-0">Belum ada artikel pada kategori ini.</p>
+            </div>`;
+        return;
+    }
+
+    artikelArray.forEach(artikel => {
+        gridArtikel.innerHTML += `
+            <div class="col-md-6 col-lg-4 reveal is-visible">
+                <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden bg-white d-flex flex-column">
+                    <a href="${artikel.url}" class="d-block overflow-hidden position-relative">
+                        <img src="${artikel.gambar}" class="card-img-top" alt="${artikel.judul}" style="height:210px;object-fit:cover;" loading="lazy">
+                        <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3 px-3 py-2 text-uppercase fw-bold">${artikel.kategoriLabel}</span>
+                    </a>
+                    <div class="card-body p-4 d-flex flex-column flex-grow-1">
+                        <div class="d-flex align-items-center gap-3 small text-muted-navy mb-2" style="font-size: 0.78rem;">
+                            <span><i class="bi bi-calendar3 text-warning me-1"></i>${artikel.tanggal}</span>
+                            <span><i class="bi bi-clock text-warning me-1"></i>${artikel.waktuBaca}</span>
+                        </div>
+                        <h3 class="h5 text-navy fw-bold mb-2" style="line-height: 1.35;">
+                            <a href="${artikel.url}" class="text-navy text-decoration-none hover-yellow">${artikel.judul}</a>
+                        </h3>
+                        <p class="text-muted-navy small mb-4 flex-grow-1">${artikel.ringkasan}</p>
+                        <div class="mt-auto pt-3 border-top">
+                            <a href="${artikel.url}" class="btn btn-outline-navy btn-sm w-100 py-2 fw-bold text-uppercase text-center">
+                                Baca Selengkapnya <i class="bi bi-arrow-right ms-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
+/* ---------- MODAL BACA ARTIKEL ---------- */
+function bacaArtikel(index) {
+    const artikel = dataArtikel[index];
+    if (!artikel) return;
+
+    const paragraf = artikel.isi.map(p => `<p class="text-muted-navy">${p}</p>`).join("");
+
+    document.getElementById("modalArtikelLabel").innerText = artikel.judul;
+    document.getElementById("modalArtikelBody").innerHTML = `
+        <img src="${artikel.gambar}" alt="${artikel.judul}">
+        <div class="blog-meta mb-4">
+            <span class="text-warning fw-bold text-uppercase">${artikel.kategoriLabel}</span>
+            <span><i class="bi bi-calendar3"></i>${artikel.tanggal}</span>
+            <span><i class="bi bi-clock-history"></i>${artikel.waktuBaca} Baca</span>
+        </div>
+        ${paragraf}
+        <a href="kontak.html" class="btn btn-accent w-100 py-2 text-uppercase mt-3">
+            <i class="bi bi-chat-dots me-2"></i>Konsultasikan Kebutuhan Proyek Anda
+        </a>
+    `;
+
+    const modalEl = document.getElementById("modalArtikel");
+    if (modalEl && window.bootstrap) {
+        new bootstrap.Modal(modalEl).show();
+    }
+}
+
+/* ---------- FILTER ARTIKEL BERDASARKAN KATEGORI ---------- */
+function filterArtikel(kategori, btnEl) {
+    document.querySelectorAll(".btn-filter-artikel").forEach(b => b.classList.remove("active"));
+    if (btnEl) btnEl.classList.add("active");
+
+    if (kategori === "semua") {
+        renderArtikel(dataArtikel);
+    } else {
+        renderArtikel(dataArtikel.filter(a => a.kategori === kategori));
+    }
 }
 
 /* ---------- RENDER PORTOFOLIO UNGGULAN (Beranda — versi visual besar) ---------- */
@@ -349,7 +607,16 @@ function renderProyekUnggulan(proyekArray) {
     });
 }
 
-function filterPortofolio(kategori) {
+function filterPortofolio(kategori, btnEl) {
+    // Toggle status aktif tombol filter
+    document.querySelectorAll(".btn-filter-portofolio").forEach(b => b.classList.remove("active"));
+    if (btnEl) {
+        btnEl.classList.add("active");
+    } else {
+        const target = document.querySelector(`.btn-filter-portofolio[data-kategori="${kategori}"]`);
+        if (target) target.classList.add("active");
+    }
+
     if (kategori === 'semua') {
         renderProyek(dataPortofolio);
     } else {
