@@ -18,7 +18,7 @@ const dataPortofolio = [
         tahun: "2025",
         layanan: "Bangun Rumah Baru",
         deskripsi: "Pembangunan hunian 2 lantai dari pondasi cakar ayam hingga serah terima kunci. Mengusung konsep sirkulasi udara optimal, pencahayaan alami maksimal, dan struktur beton SNI bertulang tahan gempa.",
-        gambar: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop"
+        gambar: "assets/img/portofolio/Pembangunan-Rumah-Tinggal-Modern-Tropis.webp"
     },
     {
         nama: "Renovasi Fasad & Interior Ruko 3 Lantai",
@@ -31,7 +31,7 @@ const dataPortofolio = [
         tahun: "2025",
         layanan: "Renovasi Bangunan",
         deskripsi: "Peremajaan total fasad ruko komersial dengan ACP dan curtain wall kaca, penataan interior kantor lantai 1 & 2, serta perbaikan sistem waterproofing dak atap yang bocor menahun.",
-        gambar: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop"
+        gambar: "assets/img/portofolio/Renovasi-Fasad-&-Interior-Ruko-3-Lantai.webp"
     },
     {
         nama: "Pembangunan Villa Mewah & Kolam Renang",
@@ -44,7 +44,7 @@ const dataPortofolio = [
         tahun: "2025",
         layanan: "Bangun Rumah Baru",
         deskripsi: "Konstruksi villa resort kontemporer dengan infinity pool, struktur dinding penahan tanah (DPT) lereng bukit yang kokoh, serta aksen finishing batu alam andesit dan kayu ulin.",
-        gambar: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop"
+        gambar: "assets/img/portofolio/Pembangunan-Villa-Mewah-&-Kolam-Renang.webp"
     },
     {
         nama: "Konstruksi Gudang & Pabrik Industri",
@@ -57,7 +57,7 @@ const dataPortofolio = [
         tahun: "2026",
         layanan: "Gedung & Komersial",
         deskripsi: "Pembangunan fasilitas pergudangan logistik dengan rangka baja WF bentang lebar 24 meter, lantai cor beton trowel hardener heavy duty, dan saluran drainase kawasan terpadu.",
-        gambar: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=800&auto=format&fit=crop"
+        gambar: "assets/img/portofolio/Konstruksi-Gudang-&-Pabrik-Industri.webp"
     },
     {
         nama: "Renovasi Total & Tambah Lantai 2 Hunian",
@@ -70,7 +70,7 @@ const dataPortofolio = [
         tahun: "2025",
         layanan: "Renovasi Bangunan",
         deskripsi: "Pekerjaan suntik pondasi cakar ayam, pengecoran dak beton lantai 2, penambahan 3 kamar tidur baru, penggantian rangka atap baja ringan, dan instalasi kelistrikan MEP baru.",
-        gambar: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=800&auto=format&fit=crop"
+        gambar: "assets/img/portofolio/Renovasi-Total-&-Tambah-Lantai-2-Hunian.webp"
     },
     {
         nama: "Showroom Komersial & Kantor 2 Lantai",
@@ -83,7 +83,7 @@ const dataPortofolio = [
         tahun: "2026",
         layanan: "Gedung & Komersial",
         deskripsi: "Pembangunan gedung showroom dua lantai bertema industrial modern dengan lantai granit 80x80, partisi kaca tempered, pintu otomatis, dan instalasi spotlight track lighting.",
-        gambar: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=800&auto=format&fit=crop"
+        gambar: "assets/img/portofolio/Showroom-Komersial-&-Kantor-2-Lantai.webp"
     }
 ];
 
@@ -141,7 +141,7 @@ const dataArtikel = [
         tanggal: "12 Jan 2026",
         waktuBaca: "4 Menit",
         url: "artikel/cara-menilai-kualitas-beton-k-300.html",
-        gambar: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=700",
+        gambar: "assets/img/artikel/Cara-Menilai-Kualitas-Campuran-Beton-Cor-Mutu-K-300-di-Lapangan.webp",
         ringkasan: "Panduan teknis lapangan untuk menguji kualitas beton cor mutu K-300: uji slump cone, rasio air-semen, silinder uji lab, dan proses curing hidrasi beton."
     },
     {
@@ -151,7 +151,7 @@ const dataArtikel = [
         tanggal: "28 Jan 2026",
         waktuBaca: "5 Menit",
         url: "artikel/strategi-menyusun-rab-bangunan.html",
-        gambar: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=700",
+        gambar: "assets/img/artikel/Strategi-Menyusun-RAB-Rumah-Agar-Terhindar-Dari-Pembengkakan.webp",
         ringkasan: "Langkah runtut mengunci volume material bangunan sipil utama, pemisahan WBS, alokasi pos kontingensi 5-10%, dan kontrak kerja SPK mengikat."
     },
     {
@@ -161,7 +161,7 @@ const dataArtikel = [
         tanggal: "19 Feb 2026",
         waktuBaca: "4 Menit",
         url: "artikel/panduan-mengurus-izin-pbg-bangunan.html",
-        gambar: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=700",
+        gambar: "assets/img/artikel/Panduan-Lengkap-Mengurus-Izin-PBG-Bangunan-Gedung.webp",
         ringkasan: "Memahami alur perizinan Persetujuan Bangunan Gedung (PBG) pengganti IMB melalui portal resmi SIMBG Kementerian PUPR agar pembangunan legal dan aman."
     }
 ];

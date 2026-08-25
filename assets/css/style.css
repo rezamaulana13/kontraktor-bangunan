@@ -796,7 +796,7 @@ img,
 
 /* ============ HERO ============ */
 .hero-section {
-    background: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.78)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600&auto=format&fit=crop') no-repeat center center/cover;
+    background: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.78)), url('../img/beranda-background.webp') no-repeat center center/cover;
     min-height: 85vh;
     display: flex;
     align-items: center;
@@ -859,9 +859,60 @@ img,
     }
 }
 
+/* ============ PAGE HEADER (Semua Halaman Selain Beranda) ============ */
 .page-header {
-    background: linear-gradient(rgba(11, 25, 44, 0.9), rgba(11, 25, 44, 0.9)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200') no-repeat center center/cover;
-    padding: 100px 0;
+    background: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.88)), url('../img/beranda-background.webp') no-repeat center center/cover;
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+    position: relative;
+}
+
+.page-header .container {
+    width: 100%;
+}
+
+.page-header h1 {
+    font-size: clamp(2rem, 3.8vw, 2.75rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+}
+
+.page-header .lead {
+    font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+    line-height: 1.6;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-header .badge {
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.85rem;
+}
+
+.page-header-tentang {
+    background-image: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.88)), url('../img/tentang-kami-background.webp') !important;
+}
+
+.page-header-layanan {
+    background-image: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.88)), url('../img/layanan-background.webp') !important;
+}
+
+.page-header-portofolio {
+    background-image: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.88)), url('../img/portofolio-background.webp') !important;
+}
+
+.page-header-artikel {
+    background-image: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.88)), url('../img/artikel-background.webp') !important;
+}
+
+.page-header-kontak {
+    background-image: linear-gradient(rgba(11, 25, 44, 0.88), rgba(11, 25, 44, 0.88)), url('../img/kontak-background.webp') !important;
 }
 
 /* ============ TRUST BAR ============ */
@@ -1244,7 +1295,7 @@ img,
 
 /* ============ CTA AKHIR ============ */
 .final-cta-section {
-    background: linear-gradient(rgba(11, 25, 44, 0.92), rgba(11, 25, 44, 0.92)), url('https://images.unsplash.com/photo-1541976590-713941681591?q=80&w=1600&auto=format&fit=crop') no-repeat center center/cover;
+    background: linear-gradient(rgba(11, 25, 44, 0.92), rgba(11, 25, 44, 0.92)), url('../img/cta-background.webp') no-repeat center center/cover;
     padding: 8rem 0;
 }
 
@@ -1408,7 +1459,8 @@ img,
     }
 
     .page-header {
-        padding: 40px 0;
+        min-height: 280px;
+        padding: 50px 0;
     }
 
     .section-py {
@@ -1633,4 +1685,184 @@ img,
     .toc-list li {
         font-size: 0.83rem;
     }
+}
+
+/* =====================================================
+   KOMPONEN BACA JUGA (In-Article Related Articles)
+   ===================================================== */
+.baca-juga-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-left: 4px solid var(--accent-yellow);
+    background: linear-gradient(135deg, #f8f9fb 0%, #eef2f7 100%);
+    border-radius: 0 10px 10px 0;
+    padding: 1rem 1.25rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.baca-juga-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    background: var(--accent-yellow);
+    opacity: 0.06;
+    border-radius: 50%;
+    transform: translate(25px, -25px);
+}
+
+.baca-juga-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #b58a00;
+    background: rgba(255, 193, 7, 0.15);
+    border: 1px solid rgba(255, 193, 7, 0.4);
+    padding: 0.2rem 0.65rem;
+    border-radius: 20px;
+    margin-bottom: 0.55rem;
+    width: fit-content;
+}
+
+.baca-juga-label i {
+    font-size: 0.75rem;
+}
+
+.baca-juga-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.baca-juga-list li a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-navy);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.4;
+    transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.baca-juga-list li a::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--accent-yellow);
+    border-radius: 50%;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.baca-juga-list li a:hover {
+    color: #b58a00;
+    gap: 0.65rem;
+}
+
+.baca-juga-list li a:hover::before {
+    transform: scale(1.4);
+}
+
+@media (max-width: 575.98px) {
+    .baca-juga-box {
+        padding: 0.85rem 1rem;
+        margin: 1.5rem 0;
+    }
+    .baca-juga-list li a {
+        font-size: 0.85rem;
+    }
+}
+
+/* ===== QUICK CONTACT CARDS (kontak.html) ===== */
+.quick-contact-card {
+    border: 1.5px solid rgba(0, 0, 0, 0.07);
+    border-radius: 0.75rem;
+    background: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.quick-contact-card:hover {
+    border-color: var(--accent-yellow);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.qc-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 0.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+}
+
+/* ===== CONTACT INFO ICONS (kontak.html) ===== */
+.contact-info-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+/* btn outline navy */
+.btn-outline-navy {
+    color: var(--primary-navy);
+    border-color: var(--primary-navy);
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+.btn-outline-navy:hover {
+    background: var(--primary-navy);
+    color: var(--accent-yellow);
+}
+
+/* ===== FIX ACCORDION BUTTON — override Bootstrap active state ===== */
+/* Pastikan teks tetap navy & background putih di semua kondisi */
+.accordion-button {
+    color: var(--primary-navy) !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+    font-weight: 700;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary-navy) !important;
+    background-color: #fffbf0 !important;   /* kuning sangat pucat, menunjukkan aktif */
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    /* Ganti chevron Bootstrap default dengan warna yang match */
+    filter: invert(18%) sepia(38%) saturate(800%) hue-rotate(191deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(18%) sepia(38%) saturate(800%) hue-rotate(191deg);
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(var(--bs-warning-rgb), 0.25) !important;
+    border-color: transparent;
 }
