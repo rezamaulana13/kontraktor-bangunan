@@ -383,7 +383,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const waBtn = hasilBox.querySelector("a");
             if (waBtn) {
-                const pesan = `Halo PT. Mujtahid Purwo, saya telah menghitung estimasi biaya di website:%0A%0A` +
+                const pesan = `Halo Kontraktor Bangunan, saya telah menghitung estimasi biaya di website:%0A%0A` +
                               `*Tipe Bangunan:* ${encodeURIComponent(namaTipe)}%0A` +
                               `*Luas Bangunan:* ${luas} m²%0A` +
                               `*Harga Per Meter:* Rp ${hargaPerMeter.toLocaleString("id-ID")}%0A` +
@@ -406,8 +406,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const layanan = document.getElementById("jenisLayanan").value;
             const detail = document.getElementById("detailProyek").value;
 
-            const nomorWA = "6288989643555"; // WhatsApp admin PT. Mujtahid Purwo
-            const templatePesan = `Halo PT. Mujtahid Purwo, saya ingin mengajukan konsultasi proyek:%0A%0A` +
+            const nomorWA = "6288989643555"; // WhatsApp admin Kontraktor Bangunan
+            const templatePesan = `Halo Kontraktor Bangunan, saya ingin mengajukan konsultasi proyek:%0A%0A` +
                                   `*Nama Klien:* ${encodeURIComponent(nama)}%0A` +
                                   `*Lokasi Proyek:* ${encodeURIComponent(lokasi)}%0A` +
                                   `*Jenis Layanan:* ${encodeURIComponent(layanan)}%0A` +
@@ -455,7 +455,7 @@ function renderProyek(proyekArray) {
                             <button onclick="lihatDetailProyek(${idxAsli})" class="btn btn-outline-navy btn-sm w-100 flex-sm-fill fw-bold text-uppercase py-2">
                                 <i class="bi bi-eye me-1"></i>Detail
                             </button>
-                            <a href="https://wa.me/6288989643555?text=Halo%20PT.%20Mujtahid%20Purwo%2C%20saya%20tertarik%20dengan%20proyek%20${encodeURIComponent(proyek.nama)}." target="_blank" rel="noopener" class="btn btn-accent btn-sm w-100 flex-sm-fill fw-bold text-uppercase py-2 text-center">
+                            <a href="https://wa.me/6288989643555?text=Halo%20Kontraktor%20Bangunan%2C%20saya%20tertarik%20dengan%20proyek%20${encodeURIComponent(proyek.nama)}." target="_blank" rel="noopener" class="btn btn-accent btn-sm w-100 flex-sm-fill fw-bold text-uppercase py-2 text-center">
                                 <i class="bi bi-whatsapp me-1"></i>Tanya WA
                             </a>
                         </div>
@@ -472,7 +472,7 @@ function lihatDetailProyek(index) {
     if (!proyek) return;
 
     const badgeColor = proyek.status === "Selesai" ? "bg-success" : "bg-warning text-dark";
-    const pesanWA = `Halo PT. Mujtahid Purwo, saya tertarik dengan portofolio "${proyek.nama}" (${proyek.lokasi}) dan ingin berkonsultasi untuk proyek serupa.`;
+    const pesanWA = `Halo Kontraktor Bangunan, saya tertarik dengan portofolio "${proyek.nama}" (${proyek.lokasi}) dan ingin berkonsultasi untuk proyek serupa.`;
 
     document.getElementById("modalDetailProyekLabel").innerText = proyek.nama;
     document.getElementById("modalDetailProyekBody").innerHTML = `
