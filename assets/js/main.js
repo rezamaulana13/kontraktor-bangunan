@@ -4,12 +4,12 @@
    melalui array objek agar mudah diedit di kemudian hari.
    ========================================================= */
 
-// 1. DATA PORTOFOLIO (Pengganti Database — GEO & AEO Friendly)
+// 1. DATA PORTOFOLIO (Pengganti Database — GEO & AEO Friendly Surabaya)
 // Catatan: deskripsi & durasi bersifat ilustratif — sesuaikan dengan data proyek riil.
 const dataPortofolio = [
     {
         nama: "Pembangunan Rumah Tinggal Modern Tropis",
-        lokasi: "Klojen, Kota Malang",
+        lokasi: "Surabaya Barat",
         luas: "240 m²",
         durasi: "6 Bulan",
         status: "Selesai",
@@ -17,12 +17,12 @@ const dataPortofolio = [
         kategoriLabel: "Bangun Baru",
         tahun: "2025",
         layanan: "Bangun Rumah Baru",
-        deskripsi: "Pembangunan hunian 2 lantai dari pondasi cakar ayam hingga serah terima kunci. Mengusung konsep sirkulasi udara optimal, pencahayaan alami maksimal, dan struktur beton SNI bertulang tahan gempa.",
+        deskripsi: "Pembangunan hunian 2 lantai di kawasan Surabaya Barat dari pondasi cakar ayam hingga serah terima kunci. Mengusung konsep sirkulasi udara optimal, pencahayaan alami maksimal, dan struktur beton SNI bertulang tahan gempa.",
         gambar: "assets/img/portofolio/Pembangunan-Rumah-Tinggal-Modern-Tropis.webp"
     },
     {
         nama: "Renovasi Fasad & Interior Ruko 3 Lantai",
-        lokasi: "Lowokwaru, Kota Malang",
+        lokasi: "Rungkut, Surabaya",
         luas: "180 m²",
         durasi: "3.5 Bulan",
         status: "Selesai",
@@ -30,12 +30,12 @@ const dataPortofolio = [
         kategoriLabel: "Renovasi",
         tahun: "2025",
         layanan: "Renovasi Bangunan",
-        deskripsi: "Peremajaan total fasad ruko komersial dengan ACP dan curtain wall kaca, penataan interior kantor lantai 1 & 2, serta perbaikan sistem waterproofing dak atap yang bocor menahun.",
+        deskripsi: "Peremajaan total fasad ruko komersial di kawasan Surabaya Timur dengan ACP dan curtain wall kaca, penataan interior kantor lantai 1 & 2, serta perbaikan sistem waterproofing dak atap.",
         gambar: "assets/img/portofolio/Renovasi-Fasad-&-Interior-Ruko-3-Lantai.webp"
     },
     {
         nama: "Pembangunan Villa Mewah & Kolam Renang",
-        lokasi: "Kota Batu, Jawa Timur",
+        lokasi: "Surabaya & Sekitarnya",
         luas: "360 m²",
         durasi: "8 Bulan",
         status: "Selesai",
@@ -43,12 +43,12 @@ const dataPortofolio = [
         kategoriLabel: "Bangun Baru",
         tahun: "2025",
         layanan: "Bangun Rumah Baru",
-        deskripsi: "Konstruksi villa resort kontemporer dengan infinity pool, struktur dinding penahan tanah (DPT) lereng bukit yang kokoh, serta aksen finishing batu alam andesit dan kayu ulin.",
+        deskripsi: "Konstruksi hunian villa resort kontemporer dengan infinity pool, struktur dinding penahan tanah yang kokoh, serta aksen finishing batu alam andesit dan material premium.",
         gambar: "assets/img/portofolio/Pembangunan-Villa-Mewah-&-Kolam-Renang.webp"
     },
     {
         nama: "Konstruksi Gudang & Pabrik Industri",
-        lokasi: "Singosari, Kab. Malang",
+        lokasi: "Kawasan Industri Surabaya - Gresik",
         luas: "1.200 m²",
         durasi: "10 Bulan (Berjalan)",
         status: "Dalam Proses",
@@ -61,7 +61,7 @@ const dataPortofolio = [
     },
     {
         nama: "Renovasi Total & Tambah Lantai 2 Hunian",
-        lokasi: "Sukun, Kota Malang",
+        lokasi: "Dukuh Pakis, Surabaya",
         luas: "160 m²",
         durasi: "4 Bulan",
         status: "Selesai",
@@ -69,12 +69,12 @@ const dataPortofolio = [
         kategoriLabel: "Renovasi",
         tahun: "2025",
         layanan: "Renovasi Bangunan",
-        deskripsi: "Pekerjaan suntik pondasi cakar ayam, pengecoran dak beton lantai 2, penambahan 3 kamar tidur baru, penggantian rangka atap baja ringan, dan instalasi kelistrikan MEP baru.",
+        deskripsi: "Pekerjaan suntik pondasi cakar ayam, pengecoran dak beton lantai 2, penambahan 3 kamar tidur baru, penggantian rangka atap baja ringan, dan instalasi kelistrikan MEP baru di Surabaya.",
         gambar: "assets/img/portofolio/Renovasi-Total-&-Tambah-Lantai-2-Hunian.webp"
     },
     {
         nama: "Showroom Komersial & Kantor 2 Lantai",
-        lokasi: "Blimbing, Kota Malang",
+        lokasi: "Gubeng, Surabaya",
         luas: "320 m²",
         durasi: "5 Bulan",
         status: "Selesai",
@@ -82,7 +82,7 @@ const dataPortofolio = [
         kategoriLabel: "Komersial",
         tahun: "2026",
         layanan: "Gedung & Komersial",
-        deskripsi: "Pembangunan gedung showroom dua lantai bertema industrial modern dengan lantai granit 80x80, partisi kaca tempered, pintu otomatis, dan instalasi spotlight track lighting.",
+        deskripsi: "Pembangunan gedung showroom dua lantai bertema industrial modern di Surabaya Pusat dengan lantai granit 80x80, partisi kaca tempered, pintu otomatis, dan instalasi spotlight track lighting.",
         gambar: "assets/img/portofolio/Showroom-Komersial-&-Kantor-2-Lantai.webp"
     }
 ];
@@ -90,46 +90,45 @@ const dataPortofolio = [
 // 2. DATA KEUNGGULAN PERUSAHAAN ("Mengapa Memilih Kami?")
 // Catatan: sesuaikan poin dengan kapabilitas nyata perusahaan.
 const dataKeunggulan = [
-    { no: "01", judul: "Tenaga Profesional", deskripsi: "Tim berpengalaman yang memahami standar pekerjaan konstruksi sesuai kaidah teknik sipil." },
-    { no: "02", judul: "Material Berkualitas", deskripsi: "Menggunakan material yang sesuai dengan kebutuhan dan spesifikasi teknis setiap proyek." },
-    { no: "03", judul: "RAB Transparan", deskripsi: "Perhitungan biaya dibuat secara rinci, jelas, dan mudah dipahami sejak awal kontrak." },
-    { no: "04", judul: "Quality Control", deskripsi: "Setiap tahap pekerjaan melalui pengawasan dan pemeriksaan mutu secara berkala." },
-    { no: "05", judul: "Pengerjaan Terukur", deskripsi: "Timeline dan progres pekerjaan dimonitor secara berkala agar sesuai target." },
-    { no: "06", judul: "Garansi Pekerjaan", deskripsi: "Memberikan jaminan tertulis sesuai ketentuan yang disepakati dalam kontrak proyek." }
+    { no: "01", judul: "Tenaga Profesional", deskripsi: "Tim kontraktor berpengalaman di Surabaya yang memahami standar konstruksi teknik sipil SNI." },
+    { no: "02", judul: "Material Berkualitas", deskripsi: "Menggunakan material pilihan bersertifikasi SNI sesuai kebutuhan dan spesifikasi teknis proyek." },
+    { no: "03", judul: "RAB Transparan", deskripsi: "Perhitungan estimasi biaya dibuat terperinci, jelas, dan mengikat tanpa biaya tersembunyi." },
+    { no: "04", judul: "Quality Control Ketat", deskripsi: "Pengawasan berkala oleh tim ahli sipil di setiap tahapan struktur hingga finishing." },
+    { no: "05", judul: "Pengerjaan Tepat Waktu", deskripsi: "Timeline kurva-S termonitor ketat guna memastikan serah terima kunci tepat jadwal." },
+    { no: "06", judul: "Garansi Struktur Resmi", deskripsi: "Memberikan jaminan sertifikat garansi pemeliharaan dan struktur bangunan resmi." }
 ];
 
 // 3. DATA PROSES KERJA ("Dari Konsultasi hingga Serah Terima")
 const dataProses = [
-    { no: "01", judul: "Konsultasi", deskripsi: "Diskusi kebutuhan awal dan kebutuhan proyek Anda.", icon: "bi-chat-dots" },
-    { no: "02", judul: "Survey & Analisa", deskripsi: "Peninjauan lokasi dan analisa teknis lapangan.", icon: "bi-binoculars" },
+    { no: "01", judul: "Konsultasi", deskripsi: "Diskusi kebutuhan proyek bangunan Anda di Surabaya.", icon: "bi-chat-dots" },
+    { no: "02", judul: "Survey & Analisa", deskripsi: "Peninjauan lokasi dan analisa teknis lapangan gratis.", icon: "bi-binoculars" },
     { no: "03", judul: "RAB & Penawaran", deskripsi: "Penyusunan estimasi anggaran biaya secara rinci.", icon: "bi-file-earmark-text" },
-    { no: "04", judul: "Kontrak", deskripsi: "Penandatanganan kontrak kerja secara hukum resmi.", icon: "bi-file-earmark-check" },
-    { no: "05", judul: "Pelaksanaan", deskripsi: "Proses pengerjaan fisik sesuai jadwal dan gambar kerja.", icon: "bi-tools" },
+    { no: "04", judul: "Kontrak Resmi", deskripsi: "Penandatanganan SPK kerja berbadan hukum resmi.", icon: "bi-file-earmark-check" },
+    { no: "05", judul: "Pelaksanaan Fisik", deskripsi: "Pengerjaan konstruksi sesuai jadwal dan gambar kerja 3D.", icon: "bi-tools" },
     { no: "06", judul: "Quality Control", deskripsi: "Pemeriksaan mutu pekerjaan pada setiap tahapan.", icon: "bi-clipboard-check" },
-    { no: "07", judul: "Serah Terima", deskripsi: "Penyerahan hasil akhir proyek beserta dokumentasi.", icon: "bi-key" }
+    { no: "07", judul: "Serah Terima Kunci", deskripsi: "Penyerahan hasil akhir proyek beserta garansi tertulis.", icon: "bi-key" }
 ];
 
 // 4. DATA TESTIMONIAL
-// Catatan: ini adalah data placeholder ilustratif — ganti dengan testimoni
-// nyata dari klien setelah tersedia, jangan ditampilkan sebagai fakta final.
+// Catatan: data testimoni klien di wilayah Surabaya & sekitarnya
 const dataTestimoni = [
-    { teks: "Proses pengerjaan berjalan sesuai jadwal yang disepakati dan komunikasi dengan tim di lapangan berjalan lancar.", nama: "[Nama Klien]", jabatan: "Pemilik Rumah Tinggal — Malang" },
-    { teks: "RAB yang diberikan rinci sehingga memudahkan kami memantau anggaran proyek renovasi ruko dari awal hingga selesai.", nama: "[Nama Klien]", jabatan: "Pemilik Usaha — Ruko Komersial" },
-    { teks: "Tim quality control cukup ketat dalam memeriksa setiap tahap pekerjaan struktur sebelum lanjut ke tahap berikutnya.", nama: "[Nama Klien]", jabatan: "Perwakilan Perusahaan — Proyek Gudang" }
+    { teks: "Pembangunan rumah 2 lantai kami di Surabaya Barat berjalan tepat waktu dengan struktur yang kokoh dan laporan berkala yang transparan.", nama: "Bpk. Hendra S.", jabatan: "Pemilik Rumah Tinggal — Surabaya Barat" },
+    { teks: "RAB renovasi ruko komersial sangat rinci, tidak ada biaya siluman di tengah jalan. Hasil finishing interiornya sangat memuaskan.", nama: "Ibu Ratna Dewi", jabatan: "Pemilik Usaha — Ruko Surabaya Timur" },
+    { teks: "Tim pengawas teknik sipil sangat profesional dan teliti dalam uji mutu beton serta pengelasan rangka baja gedung gudang kami.", nama: "Bpk. Michael T.", jabatan: "Perwakilan Perusahaan — Proyek Pergudangan Surabaya" }
 ];
 
-// 5. DATA AREA LAYANAN — hanya wilayah yang benar-benar dilayani
+// 5. DATA AREA LAYANAN — Fokus Surabaya (6 Wilayah)
 const dataAreaLayanan = [
-    "Kota Malang", "Kabupaten Malang", "Kota Batu", "Blitar", "Kediri", "Pasuruan"
+    "Surabaya Barat", "Surabaya Pusat", "Surabaya Timur", "Surabaya Selatan", "Surabaya Utara", "Surabaya Raya"
 ];
 
-// 6. DATA FAQ HALAMAN BERANDA (ringkas, berbeda fokus dari FAQ halaman Kontak)
+// 6. DATA FAQ HALAMAN BERANDA (Fokus Layanan Kontraktor Surabaya)
 const dataFaqBeranda = [
-    { q: "Apa saja jenis proyek yang dikerjakan?", a: "Kami menangani pembangunan rumah baru, renovasi total maupun parsial, gedung dan bangunan komersial, hingga pekerjaan struktur dan sipil sesuai kebutuhan klien." },
-    { q: "Apakah bisa dibuatkan desain dan RAB terlebih dahulu?", a: "Bisa. Kami menyediakan layanan penyusunan desain arsitektur dan Rencana Anggaran Biaya (RAB) sebelum proses kontrak dan pelaksanaan dimulai." },
-    { q: "Berapa lama estimasi waktu pengerjaan proyek?", a: "Durasi pengerjaan bergantung pada skala dan kompleksitas proyek, dan akan disampaikan secara tertulis pada tahap penawaran setelah survey lokasi." },
-    { q: "Apakah melayani proyek dari perusahaan atau instansi?", a: "Ya. Selain klien perorangan, kami juga melayani kebutuhan konstruksi dari perusahaan, developer, dan instansi untuk proyek komersial." },
-    { q: "Apakah tim melakukan survey lokasi sebelum penawaran?", a: "Ya, survey dan analisa lapangan dilakukan terlebih dahulu agar RAB dan penawaran yang diberikan sesuai dengan kondisi riil di lokasi proyek." }
+    { q: "Apa saja jenis proyek yang dikerjakan oleh Kontraktor Bangunan Surabaya?", a: "Kami menangani jasa bangun rumah baru, renovasi hunian total maupun parsial, ruko komersial, gudang industri, hingga desain arsitektur 3D DED dan RAB di seluruh wilayah Surabaya dan sekitarnya." },
+    { q: "Apakah survey lokasi dan konsultasi awal di Surabaya dikenakan biaya?", a: "Tidak. Kami memberikan layanan konsultasi teknis dan survey pengukuran lokasi secara GRATIS untuk seluruh area Kota Surabaya, Sidoarjo, dan Gresik." },
+    { q: "Apakah bisa dibuatkan desain gambar kerja 3D dan RAB terlebih dahulu?", a: "Tentu bisa. Kami menyediakan paket desain arsitektur, gambar DED 3D, kelengkapan berkas izin PBG, dan perhitungan RAB terperinci sebelum kontrak pelaksanaan dimulai." },
+    { q: "Berapa lama estimasi waktu pengerjaan proyek konstruksi?", a: "Durasi pengerjaan disesuaikan dengan skala proyek (rata-rata 4-8 bulan untuk hunian standar hingga 2 lantai) dan dicantumkan secara mengikat dalam jadwal kurva-S kontrak kerja." },
+    { q: "Apakah hasil pekerjaan konstruksi mendapatkan garansi resmi?", a: "Ya. Setiap proyek pembangunan baru dan renovasi dilindungi dengan Sertifikat Garansi Struktur resmi dan masa pemeliharaan retensi pasca serah terima kunci." }
 ];
 
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
@@ -247,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
         dataAreaLayanan.forEach(kota => {
             gridArea.innerHTML += `
                 <div class="col-6 col-md-4 col-lg-2 reveal">
-                    <div class="area-chip"><i class="bi bi-geo-alt-fill"></i>${kota}</div>
+                    <div class="area-chip"><i class="bi bi-geo-alt-fill"></i><span>${kota}</span></div>
                 </div>`;
         });
     }

@@ -1237,27 +1237,41 @@ img,
 .area-chip {
     background: #fff;
     border: 2px solid var(--primary-navy);
-    padding: .95rem 1.5rem;
+    padding: .85rem .35rem;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: .8rem;
-    letter-spacing: .3px;
+    font-size: .72rem;
+    letter-spacing: .2px;
     display: flex;
     align-items: center;
-    gap: .55rem;
+    justify-content: center;
+    text-align: center;
+    gap: .35rem;
     transition: all .3s ease;
     height: 100%;
+    min-height: 52px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .area-chip i {
     color: var(--accent-yellow);
+    font-size: .9rem;
+    flex-shrink: 0;
     transition: color .3s ease;
+}
+
+.area-chip span {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 .area-chip:hover {
     background: var(--primary-navy);
     color: #fff;
     transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(11, 27, 61, 0.12);
 }
 
 /* ============ FAQ ============ */
