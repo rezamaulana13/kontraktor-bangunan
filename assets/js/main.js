@@ -545,13 +545,23 @@ function renderArtikel(artikelArray) {
         return;
     }
 
+    const iconKategoriMap = {
+        "bangun-rumah": "bi-house-door-fill",
+        "sipil-dasar": "bi-bricks",
+        "manajemen": "bi-calculator-fill",
+        "legalitas": "bi-file-earmark-check-fill"
+    };
+
     artikelArray.forEach(artikel => {
+        const iconKat = iconKategoriMap[artikel.kategori] || "bi-tag-fill";
         gridArtikel.innerHTML += `
             <div class="col-md-6 col-lg-4 reveal is-visible">
                 <div class="card h-100 border-0 shadow-sm hover-lift overflow-hidden bg-white d-flex flex-column">
                     <a href="${artikel.url}" class="d-block overflow-hidden position-relative">
                         <img src="${artikel.gambar}" class="card-img-top" alt="${artikel.judul}" style="height:210px;object-fit:cover;" loading="lazy">
-                        <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3 px-3 py-2 text-uppercase fw-bold">${artikel.kategoriLabel}</span>
+                        <span class="badge bg-warning text-dark position-absolute top-0 start-0 m-3 px-3 py-2 text-uppercase fw-bold shadow-sm d-inline-flex align-items-center gap-1">
+                            <i class="bi ${iconKat}"></i> ${artikel.kategoriLabel}
+                        </span>
                     </a>
                     <div class="card-body p-4 d-flex flex-column flex-grow-1">
                         <div class="d-flex align-items-center gap-3 small text-muted-navy mb-2" style="font-size: 0.78rem;">

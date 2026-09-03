@@ -180,15 +180,52 @@
         </div>
     </header>
 
+    <!-- =====================================================
+         FLOATING CATEGORY DOCK (WIDGET KATEGORI MELAYANG)
+         ===================================================== -->
+    <aside class="floating-category-dock" aria-label="Navigasi Cepat Kategori Artikel">
+        <div class="dock-header">Kategori</div>
+        <button type="button" onclick="filterArtikel('semua', this)" class="dock-item active" data-filter="semua" aria-label="Semua Artikel" title="Semua Artikel">
+            <i class="bi bi-grid-fill"></i>
+            <span class="dock-label">Semua Artikel</span>
+        </button>
+        <button type="button" onclick="filterArtikel('bangun-rumah', this)" class="dock-item" data-filter="bangun-rumah" aria-label="Bangun Rumah" title="Bangun Rumah">
+            <i class="bi bi-house-heart-fill"></i>
+            <span class="dock-label">Bangun Rumah</span>
+        </button>
+        <button type="button" onclick="filterArtikel('sipil-dasar', this)" class="dock-item" data-filter="sipil-dasar" aria-label="Sipil Dasar" title="Sipil Dasar">
+            <i class="bi bi-bricks"></i>
+            <span class="dock-label">Sipil Dasar</span>
+        </button>
+        <button type="button" onclick="filterArtikel('manajemen', this)" class="dock-item" data-filter="manajemen" aria-label="Manajemen Biaya" title="Manajemen Biaya">
+            <i class="bi bi-calculator-fill"></i>
+            <span class="dock-label">Manajemen Biaya</span>
+        </button>
+        <button type="button" onclick="filterArtikel('legalitas', this)" class="dock-item" data-filter="legalitas" aria-label="Legalitas & Izin" title="Legalitas & Izin">
+            <i class="bi bi-file-earmark-check-fill"></i>
+            <span class="dock-label">Legalitas &amp; Izin</span>
+        </button>
+    </aside>
+
     <section class="section-py bg-light">
         <div class="container">
             <!-- Filter Tombol Kategori Artikel -->
             <div class="d-flex flex-column flex-sm-row flex-wrap gap-2 justify-content-center mb-5 reveal">
-                <button onclick="filterArtikel('semua', this)" class="btn btn-filter btn-filter-artikel active px-4 py-2 text-uppercase font-heading small">Semua Artikel</button>
-                <button onclick="filterArtikel('bangun-rumah', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small">Bangun Rumah</button>
-                <button onclick="filterArtikel('sipil-dasar', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small">Sipil Dasar</button>
-                <button onclick="filterArtikel('manajemen', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small">Manajemen Biaya</button>
-                <button onclick="filterArtikel('legalitas', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small">Legalitas &amp; Izin</button>
+                <button onclick="filterArtikel('semua', this)" class="btn btn-filter btn-filter-artikel active px-4 py-2 text-uppercase font-heading small" data-filter="semua">
+                    <i class="bi bi-grid-fill me-1"></i> Semua Artikel
+                </button>
+                <button onclick="filterArtikel('bangun-rumah', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small" data-filter="bangun-rumah">
+                    <i class="bi bi-house-heart-fill me-1"></i> Bangun Rumah
+                </button>
+                <button onclick="filterArtikel('sipil-dasar', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small" data-filter="sipil-dasar">
+                    <i class="bi bi-bricks me-1"></i> Sipil Dasar
+                </button>
+                <button onclick="filterArtikel('manajemen', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small" data-filter="manajemen">
+                    <i class="bi bi-calculator-fill me-1"></i> Manajemen Biaya
+                </button>
+                <button onclick="filterArtikel('legalitas', this)" class="btn btn-filter btn-filter-artikel px-4 py-2 text-uppercase font-heading small" data-filter="legalitas">
+                    <i class="bi bi-file-earmark-check-fill me-1"></i> Legalitas &amp; Izin
+                </button>
             </div>
 
             <!-- Kontainer Render JS Otomatis (AEO/GEO Friendly) -->
