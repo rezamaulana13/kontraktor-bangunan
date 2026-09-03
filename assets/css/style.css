@@ -1918,3 +1918,135 @@ img,
     box-shadow: 0 0 0 0.2rem rgba(var(--bs-warning-rgb), 0.25) !important;
     border-color: transparent;
 }
+
+/* =====================================================
+   FLOATING CATEGORY DOCK (WIDGET KATEGORI MELAYANG)
+   ===================================================== */
+.floating-category-dock {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1040;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(11, 27, 61, 0.90);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 193, 7, 0.35);
+    border-radius: 18px;
+    padding: 12px 8px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.floating-category-dock:hover {
+    border-color: rgba(255, 193, 7, 0.65);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35), 0 0 15px rgba(255, 193, 7, 0.2);
+}
+
+.dock-header {
+    text-align: center;
+    font-size: 0.62rem;
+    font-weight: 800;
+    color: var(--accent-yellow);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    margin-bottom: 2px;
+}
+
+.dock-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.85);
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    font-size: 1.15rem;
+}
+
+.dock-item:hover {
+    background: rgba(255, 193, 7, 0.25);
+    color: #fff;
+    border-color: rgba(255, 193, 7, 0.6);
+    transform: scale(1.08);
+}
+
+.dock-item.active {
+    background: var(--accent-yellow);
+    color: var(--primary-navy);
+    font-weight: bold;
+    border-color: var(--accent-yellow);
+    box-shadow: 0 4px 14px rgba(255, 193, 7, 0.45);
+    transform: scale(1.08);
+}
+
+/* Tooltip / Label Melayang ke Kanan */
+.dock-item .dock-label {
+    position: absolute;
+    left: calc(100% + 14px);
+    top: 50%;
+    transform: translateY(-50%) translateX(-8px);
+    background: var(--primary-navy);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 193, 7, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1050;
+}
+
+.dock-item .dock-label::before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent var(--primary-navy) transparent transparent;
+}
+
+.dock-item:hover .dock-label {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(0);
+}
+
+/* Responsive Hide / Mobile Adapt */
+@media (max-width: 991.98px) {
+    .floating-category-dock {
+        left: 10px;
+        padding: 8px 6px;
+        gap: 8px;
+        border-radius: 14px;
+    }
+    .dock-item {
+        width: 38px;
+        height: 38px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .floating-category-dock {
+        display: none;
+    }
+}
