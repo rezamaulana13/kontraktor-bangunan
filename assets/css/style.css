@@ -1539,23 +1539,61 @@ img,
     align-self: flex-start;
 }
 
-/* Table of Contents (TOC) */
+/* Table of Contents (TOC) Collapsible */
 .toc-box {
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-left: 4px solid var(--accent-yellow);
-    padding: 1.25rem 1.5rem;
+    padding: 1rem 1.25rem;
     margin-bottom: 2rem;
+    border-radius: 6px;
 }
 
 .toc-title {
-    font-size: 1.05rem;
+    font-size: 1.02rem;
     font-weight: 700;
     color: var(--primary-navy);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.toc-toggle-btn {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--primary-navy);
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    padding: 0.2rem 0.65rem;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: all 0.2s ease;
+}
+
+.toc-toggle-btn:hover {
+    background: #f1f5f9;
+    border-color: #94a3b8;
+}
+
+.toc-chevron {
+    transition: transform 0.25s ease;
+}
+
+.toc-title[aria-expanded="true"] .toc-chevron {
+    transform: rotate(180deg);
+}
+
+.toc-title[aria-expanded="true"] .toc-toggle-text::after {
+    content: "Tutup";
+}
+
+.toc-title[aria-expanded="false"] .toc-toggle-text::after {
+    content: "Buka";
 }
 
 .toc-list {

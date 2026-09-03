@@ -134,6 +134,36 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Rekomendasi Kontraktor Rumah Tepercaya di Surabaya 2026",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "3 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/panduan-memilih-kontraktor-rumah-surabaya.html",
+        gambar: "assets/img/artikel/panduan-memilih-kontraktor-rumah-surabaya.webp",
+        ringkasan: "Panduan memilih kontraktor rumah tepercaya di Surabaya: legalitas usaha, portofolio proyek fisik, pengawasan mutu beton K-300 SNI, dan transparansi kontrak kerja SPK."
+    },
+    {
+        judul: "Cara Menilai Kualitas Beton K-300 untuk Dak Rumah",
+        kategori: "sipil-dasar",
+        kategoriLabel: "Sipil Dasar",
+        tanggal: "3 Sep 2026",
+        waktuBaca: "5 Menit",
+        url: "artikel/cara-menilai-kualitas-beton-k-300-dak-rumah.html",
+        gambar: "assets/img/artikel/cara-menilai-kualitas-beton-k-300-dak-rumah.webp",
+        ringkasan: "Panduan cara menilai kualitas beton K-300 untuk dak rumah tinggal: uji slump cone 10-12 cm, uji tekan silinder lab 28 hari, dan langkah hindari dak bocor."
+    },
+    {
+        judul: "Panduan Lengkap Bangun Rumah Baru di Malang dari Nol hingga Finishing",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "3 Sep 2026",
+        waktuBaca: "10 Menit",
+        url: "artikel/panduan-lengkap-bangun-rumah-baru-malang.html",
+        gambar: "assets/img/artikel/panduan-lengkap-bangun-rumah.webp",
+        ringkasan: "Panduan lengkap tahapan membangun rumah baru dari nol di Malang: izin PBG, struktur pondasi & dak beton K-300, instalasi MEP, estimasi biaya per m², dan timeline kurva-S."
+    },
+    {
         judul: "Cara Menilai Kualitas Campuran Beton Cor Mutu K-300 di Lapangan",
         kategori: "sipil-dasar",
         kategoriLabel: "Sipil Dasar",
@@ -146,7 +176,7 @@ const dataArtikel = [
     {
         judul: "Strategi Menyusun RAB Rumah Agar Terhindar Dari Pembengkakan",
         kategori: "manajemen",
-        kategoriLabel: "Manajemen",
+        kategoriLabel: "Manajemen Biaya",
         tanggal: "28 Jan 2026",
         waktuBaca: "5 Menit",
         url: "artikel/strategi-menyusun-rab-bangunan.html",
@@ -156,7 +186,7 @@ const dataArtikel = [
     {
         judul: "Panduan Lengkap Mengurus Izin PBG Bangunan Gedung",
         kategori: "legalitas",
-        kategoriLabel: "Legalitas",
+        kategoriLabel: "Legalitas & Izin",
         tanggal: "19 Feb 2026",
         waktuBaca: "4 Menit",
         url: "artikel/panduan-mengurus-izin-pbg-bangunan.html",
