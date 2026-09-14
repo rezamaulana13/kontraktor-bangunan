@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,57 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-memilih-waktu-dan-musim-terbaik-mulai-bangun-rumah-surabaya</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/tips-memilih-waktu-dan-musim-terbaik-mulai-bangun-rumah-surabaya.webp</image:loc>
+      <image:title>Tips Memilih Waktu dan Musim Terbaik untuk Mulai Bangun Rumah di Surabaya</image:title>
+      <image:caption>Pelaksanaan pekerjaan struktur pondasi dan dinding bata rumah tinggal di Surabaya pada kondisi cuaca kering musim kemarau yang optimal</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/strategi-penjadwalan-konstruksi-musim-kemarau-dan-hujan-surabaya.webp</image:loc>
+      <image:title>Strategi Penjadwalan Konstruksi Rumah Musim Kemarau dan Hujan Surabaya</image:title>
+      <image:caption>Pekerjaan pemasangan dinding bata dan finishing interior yang dapat tetap berlangsung produktif saat atap bangunan telah terpasang rapi</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/jenis-dan-fungsi-besi-tulangan-struktur-rumah-surabaya</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/jenis-dan-fungsi-besi-tulangan-struktur-rumah.webp</image:loc>
+      <image:title>Jenis dan Fungsi Besi Tulangan untuk Struktur Rumah Tinggal di Surabaya</image:title>
+      <image:caption>Fabrikasi pemotongan dan pembengkokan besi tulangan berstandar SNI untuk struktur rangka beton rumah tinggal di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perakitan-pembesian-plat-lantai-dan-sengkang.webp</image:loc>
+      <image:title>Perakitan Pembesian Plat Lantai Dak Beton dan Pemasangan Sengkang Balok</image:title>
+      <image:caption>Pemasangan wiremesh pelat dak lantai 2 dengan ganjalan tahu beton untuk menjaga ketebalan selimut beton pelindung tulangan</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/manajemen-dan-pengawasan-proyek-bangun-rumah-baru-surabaya</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/manajemen-dan-pengawasan-proyek-bangun-rumah-surabaya.webp</image:loc>
+      <image:title>Manajemen dan Pengawasan Proyek Bangun Rumah Baru di Surabaya</image:title>
+      <image:caption>Pengawasan berkala dan evaluasi kesesuaian gambar kerja DED proyek bangun rumah baru di Surabaya oleh tim teknik sipil profesional</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/checklist-pengawasan-konstruksi-rumah-surabaya.webp</image:loc>
+      <image:title>Checklist Pengawasan dan Uji Mutu Konstruksi Rumah Baru Surabaya</image:title>
+      <image:caption>Inspeksi mutu beton cor K-300, kerapian bekisting, dan pembesian dak lantai sebelum pengecoran pada proyek rumah tinggal di Surabaya</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/cakupan-layanan-maintenance-rutin-bangunan-gedung-surabaya</loc>
     <lastmod>2026-09-12</lastmod>

@@ -134,6 +134,36 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Tips Memilih Waktu dan Musim Terbaik untuk Mulai Bangun Rumah di Surabaya",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "14 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/tips-memilih-waktu-dan-musim-terbaik-mulai-bangun-rumah-surabaya.html",
+        gambar: "assets/img/artikel/tips-memilih-waktu-dan-musim-terbaik-mulai-bangun-rumah-surabaya.webp",
+        ringkasan: "Panduan memilih waktu dan musim terbaik untuk mulai bangun rumah di Surabaya: optimasi struktur di musim kemarau, mitigasi musim hujan, dan backward planning."
+    },
+    {
+        judul: "Jenis dan Fungsi Besi Tulangan untuk Struktur Rumah Tinggal",
+        kategori: "sipil-dasar",
+        kategoriLabel: "Sipil Dasar",
+        tanggal: "14 Sep 2026",
+        waktuBaca: "6 Menit",
+        url: "artikel/jenis-dan-fungsi-besi-tulangan-struktur-rumah-surabaya.html",
+        gambar: "assets/img/artikel/jenis-dan-fungsi-besi-tulangan-struktur-rumah.webp",
+        ringkasan: "Panduan teknis jenis besi tulangan untuk struktur rumah tinggal di Surabaya: perbedaan besi ulir vs polos, wiremesh dak lantai, standar SNI, dan perhitungan diameter."
+    },
+    {
+        judul: "Manajemen dan Pengawasan Proyek Bangun Rumah Baru di Surabaya",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "14 Sep 2026",
+        waktuBaca: "8 Menit",
+        url: "artikel/manajemen-dan-pengawasan-proyek-bangun-rumah-baru-surabaya.html",
+        gambar: "assets/img/artikel/manajemen-dan-pengawasan-proyek-bangun-rumah-surabaya.webp",
+        ringkasan: "Panduan lengkap manajemen & pengawasan proyek bangun rumah baru di Surabaya: checklist titik kritis struktur, uji mutu cor beton, laporan mingguan, dan evaluasi serah terima."
+    },
+    {
         judul: "Cakupan Layanan Maintenance Rutin Bangunan Gedung di Surabaya",
         kategori: "bangun-rumah",
         kategoriLabel: "Bangun Rumah",
