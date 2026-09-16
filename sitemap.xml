@@ -5,7 +5,7 @@
   <!-- Halaman Utama -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,108 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/kontraktor-gedung-komersial-tepercaya-dan-legal-di-jawa-timur</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/kontraktor-gedung-komersial-tepercaya-legal-jawa-timur.webp</image:loc>
+      <image:title>Kontraktor Gedung Komersial Tepercaya dan Legal di Jawa Timur</image:title>
+      <image:caption>Pelaksanaan proyek konstruksi gedung komersial, ruko bertingkat, dan perkantoran dengan standar legalitas lengkap serta pengawasan mutu SNI di Jawa Timur</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/koordinasi-tim-multidisiplin-proyek-gedung-komersial.webp</image:loc>
+      <image:title>Koordinasi Tim Multidisiplin Proyek Gedung Komersial Jawa Timur</image:title>
+      <image:caption>Rapat koordinasi teknis tim arsitek, site engineer struktur, dan supervisor MEP di lokasi pembangunan gedung komersial Surabaya</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-menghitung-kebutuhan-baja-wf-struktur-ruko-bertingkat</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/cara-menghitung-kebutuhan-baja-wf-struktur-ruko-bertingkat.webp</image:loc>
+      <image:title>Cara Menghitung Kebutuhan Baja WF untuk Struktur Ruko Bertingkat</image:title>
+      <image:caption>Analisa teknis formula perhitungan tonase profil baja WF, berat per meter kg/m, serta penentuan kapasitas bentang bebas ruko di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perhitungan-profil-dan-sambungan-baja-wf-ruko.webp</image:loc>
+      <image:title>Komponen Sambungan dan Toleransi Fabrikasi Baja WF Ruko Surabaya</image:title>
+      <image:caption>Detail komponen sambungan base plate kolom, end plate baut HTB A325, serta toleransi pemotongan presisi fabrikasi workshop baja di Surabaya</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/sertifikasi-dan-standar-keselamatan-gedung-komersial</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/sertifikasi-dan-standar-keselamatan-gedung-komersial-surabaya.webp</image:loc>
+      <image:title>Sertifikasi dan Standar Keselamatan Gedung Komersial Surabaya</image:title>
+      <image:caption>Inspeksi kelayakan fisik bangunan gedung komersial untuk pengajuan Sertifikat Laik Fungsi (SLF) dan kepatuhan standar K3 di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/sistem-proteksi-kebakaran-dan-k3-gedung-komersial.webp</image:loc>
+      <image:title>Sistem Proteksi Kebakaran dan Standar K3 Gedung Komersial Surabaya</image:title>
+      <image:caption>Pemasangan pipa hydrant dan instalasi sprinkler terintegrasi dengan penerapan ketat K3 konstruksi pada proyek komersial di Surabaya</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-memilih-material-anti-air-untuk-kamar-mandi-dan-dapur</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/tips-memilih-material-anti-air-kamar-mandi-dan-dapur-surabaya.webp</image:loc>
+      <image:title>Tips Memilih Material Anti Air untuk Kamar Mandi dan Dapur</image:title>
+      <image:caption>Kombinasi keramik porcelain rendah porositas, vanity tahan air, serta top table kuarsa anti noda pada proyek hunian di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/aplikasi-waterproofing-dan-keramik-anti-slip.webp</image:loc>
+      <image:title>Aplikasi Waterproofing dan Keramik Anti Slip Kamar Mandi Surabaya</image:title>
+      <image:caption>Pemasangan ubin homogeneous tile bertekstur anti slip pada lantai shower basah yang telah dilapisi waterproofing semen fleksibel 2 lapis</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/estimasi-biaya-renovasi-dapur-dan-kamar-mandi-per-titik-pekerjaan</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/estimasi-biaya-renovasi-dapur-dan-kamar-mandi-surabaya.webp</image:loc>
+      <image:title>Estimasi Biaya Renovasi Dapur dan Kamar Mandi per Titik Pekerjaan</image:title>
+      <image:caption>Perencanaan anggaran renovasi dapur modern meliputi kitchen island, top table marmer, dan kabinet custom berkualitas di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/rincian-biaya-sanitary-dan-plambing-kamar-mandi.webp</image:loc>
+      <image:title>Rincian Biaya Sanitary dan Plambing Kamar Mandi Surabaya</image:title>
+      <image:caption>Pemasangan sanitair berkualitas, kran kuningan, kloset gantung, serta waterproofing lantai anti bocor pada renovasi kamar mandi di Surabaya</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/panduan-renovasi-dapur-dan-kamar-mandi-agar-fungsional-dan-tahan-lama</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/panduan-renovasi-dapur-dan-kamar-mandi-surabaya.webp</image:loc>
+      <image:title>Panduan Renovasi Dapur dan Kamar Mandi agar Fungsional dan Tahan Lama</image:title>
+      <image:caption>Penerapan kitchen set modern berpadu material tahan air, top table granit, serta tata letak ergonomis pada proyek renovasi dapur hunian di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/tata-letak-dan-plambing-renovasi-dapur-kamar-mandi.webp</image:loc>
+      <image:title>Tata Letak dan Plambing Renovasi Dapur dan Kamar Mandi Surabaya</image:title>
+      <image:caption>Penerapan partisi kaca tempered pemisah area shower basah dan wastafel kering, dilengkapi sistem ventilasi udara terintegrasi untuk mencegah kelembapan berlebih</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-memilih-waktu-dan-musim-terbaik-mulai-bangun-rumah-surabaya</loc>
     <lastmod>2026-09-14</lastmod>

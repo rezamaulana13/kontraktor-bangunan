@@ -134,6 +134,66 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Kontraktor Gedung Komersial Tepercaya dan Legal di Jawa Timur",
+        kategori: "legalitas",
+        kategoriLabel: "Legalitas & Izin",
+        tanggal: "16 Sep 2026",
+        waktuBaca: "8 Menit",
+        url: "artikel/kontraktor-gedung-komersial-tepercaya-dan-legal-di-jawa-timur.html",
+        gambar: "assets/img/artikel/kontraktor-gedung-komersial-tepercaya-legal-jawa-timur.webp",
+        ringkasan: "Panduan memilih kontraktor gedung komersial tepercaya dan legal di Jawa Timur: kriteria klasifikasi usaha SBU, izin PBG/SLF, dan manajemen tim multidisiplin."
+    },
+    {
+        judul: "Cara Menghitung Kebutuhan Baja WF untuk Struktur Ruko Bertingkat",
+        kategori: "sipil-dasar",
+        kategoriLabel: "Sipil Dasar",
+        tanggal: "16 Sep 2026",
+        waktuBaca: "8 Menit",
+        url: "artikel/cara-menghitung-kebutuhan-baja-wf-struktur-ruko-bertingkat.html",
+        gambar: "assets/img/artikel/cara-menghitung-kebutuhan-baja-wf-struktur-ruko-bertingkat.webp",
+        ringkasan: "Panduan cara menghitung kebutuhan baja WF untuk struktur ruko bertingkat di Surabaya: penentuan bentang, beban mati hidup, tabel berat kg/m', dan pelat sambungan."
+    },
+    {
+        judul: "Sertifikasi dan Standar Keselamatan Gedung Komersial (SLF, K3, Proteksi Kebakaran)",
+        kategori: "legalitas",
+        kategoriLabel: "Legalitas & Izin",
+        tanggal: "16 Sep 2026",
+        waktuBaca: "8 Menit",
+        url: "artikel/sertifikasi-dan-standar-keselamatan-gedung-komersial.html",
+        gambar: "assets/img/artikel/sertifikasi-dan-standar-keselamatan-gedung-komersial-surabaya.webp",
+        ringkasan: "Panduan lengkap sertifikasi keselamatan gedung komersial di Surabaya: syarat dan penerbitan SLF, implementasi K3 konstruksi, serta sistem proteksi kebakaran terintegrasi."
+    },
+    {
+        judul: "Tips Memilih Material Anti Air untuk Kamar Mandi dan Dapur",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "15 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/tips-memilih-material-anti-air-untuk-kamar-mandi-dan-dapur.html",
+        gambar: "assets/img/artikel/tips-memilih-material-anti-air-kamar-mandi-dan-dapur-surabaya.webp",
+        ringkasan: "Panduan memilih material anti air untuk kamar mandi dan dapur di Surabaya: karakteristik keramik porcelain rendah porositas, aplikasi waterproofing, dan grout epoxy."
+    },
+    {
+        judul: "Estimasi Biaya Renovasi Dapur dan Kamar Mandi per Titik Pekerjaan",
+        kategori: "manajemen",
+        kategoriLabel: "Manajemen Biaya",
+        tanggal: "15 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/estimasi-biaya-renovasi-dapur-dan-kamar-mandi-per-titik-pekerjaan.html",
+        gambar: "assets/img/artikel/estimasi-biaya-renovasi-dapur-dan-kamar-mandi-surabaya.webp",
+        ringkasan: "Panduan estimasi biaya renovasi dapur dan kamar mandi per titik pekerjaan di Surabaya: rincian kitchen set, sanitair kloset shower, plambing pipa, dan alokasi dana cadangan."
+    },
+    {
+        judul: "Panduan Renovasi Dapur dan Kamar Mandi agar Fungsional dan Tahan Lama",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "15 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/panduan-renovasi-dapur-dan-kamar-mandi-agar-fungsional-dan-tahan-lama.html",
+        gambar: "assets/img/artikel/panduan-renovasi-dapur-dan-kamar-mandi-surabaya.webp",
+        ringkasan: "Panduan renovasi dapur dan kamar mandi di Surabaya agar fungsional dan tahan lama: instalasi sistem plambing, pemisahan zona basah-kering, dan tata letak ergonomis."
+    },
+    {
         judul: "Tips Memilih Waktu dan Musim Terbaik untuk Mulai Bangun Rumah di Surabaya",
         kategori: "bangun-rumah",
         kategoriLabel: "Bangun Rumah",
