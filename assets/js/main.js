@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Perbedaan Sistem Kontraktor Resmi dengan Tukang Harian: Legalitas, Garansi, dan Akurasi RAB",
+        kategori: "legalitas",
+        kategoriLabel: "Legalitas & Izin",
+        tanggal: "17 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/perbedaan-sistem-kontraktor-resmi-dengan-tukang-harian.html",
+        gambar: "assets/img/artikel/perbedaan-sistem-kontraktor-resmi-dengan-tukang-harian.webp",
+        ringkasan: "Perbedaan utama kontraktor resmi dengan tukang harian di Surabaya: aspek legalitas badan usaha NIB, SPK tertulis, rincian RAB akurat, dan sertifikat garansi struktur."
+    },
+    {
         judul: "Kontraktor Gedung Komersial Tepercaya dan Legal di Jawa Timur",
         kategori: "legalitas",
         kategoriLabel: "Legalitas & Izin",

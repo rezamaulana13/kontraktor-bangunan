@@ -5,7 +5,7 @@
   <!-- Halaman Utama -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,23 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/perbedaan-sistem-kontraktor-resmi-dengan-tukang-harian</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perbedaan-sistem-kontraktor-resmi-dengan-tukang-harian.webp</image:loc>
+      <image:title>Perbedaan Sistem Kontraktor Resmi dengan Tukang Harian: Legalitas, Garansi, dan Akurasi RAB</image:title>
+      <image:caption>Pelaksanaan proyek konstruksi di Surabaya dengan sistem kontraktor resmi berbadan hukum, kontrak SPK tertulis, dan perhitungan RAB terperinci</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perbandingan-legalitas-garansi-kontraktor-dan-tukang.webp</image:loc>
+      <image:title>Perbandingan Akurasi RAB dan Garansi Struktur Kontraktor Bangunan Surabaya</image:title>
+      <image:caption>Penyusunan Rencana Anggaran Biaya (RAB) akurat dan berkas garansi struktur resmi oleh tim Kontraktor Bangunan Surabaya</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/kontraktor-gedung-komersial-tepercaya-dan-legal-di-jawa-timur</loc>
     <lastmod>2026-09-16</lastmod>
