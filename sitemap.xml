@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,23 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-membaca-dan-memeriksa-gambar-ded-sebelum-konstruksi-dimulai</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/cara-membaca-dan-memeriksa-gambar-ded.webp</image:loc>
+      <image:title>Cara Membaca dan Memeriksa Gambar DED Sebelum Konstruksi Dimulai</image:title>
+      <image:caption>Pemeriksaan menyeluruh gambar Detail Engineering Design (DED) arsitektur, struktur, dan MEP bersama tim profesional di Surabaya sebelum pekerjaan fisik dimulai</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/detail-struktur-dan-jalur-mep-gambar-ded.webp</image:loc>
+      <image:title>Pemeriksaan Detail Struktur Balok Kolom dan Jalur Instalasi MEP Gambar DED</image:title>
+      <image:caption>Pengecekan detail penulangan balok-kolom struktur dan koordinasi jalur MEP pada gambar kerja DED guna mencegah bentrokan di lapangan</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/perbedaan-sistem-kontraktor-resmi-dengan-tukang-harian</loc>
     <lastmod>2026-09-17</lastmod>

@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Cara Membaca dan Memeriksa Gambar DED Sebelum Konstruksi Dimulai",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "18 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/cara-membaca-dan-memeriksa-gambar-ded-sebelum-konstruksi-dimulai.html",
+        gambar: "assets/img/artikel/cara-membaca-dan-memeriksa-gambar-ded.webp",
+        ringkasan: "Panduan cara membaca dan memeriksa gambar DED sebelum konstruksi di Surabaya: cek kesesuaian denah ruang, skala notasi teknis, serta detail struktur dan jalur MEP."
+    },
+    {
         judul: "Perbedaan Sistem Kontraktor Resmi dengan Tukang Harian: Legalitas, Garansi, dan Akurasi RAB",
         kategori: "legalitas",
         kategoriLabel: "Legalitas & Izin",
