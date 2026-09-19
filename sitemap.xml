@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,23 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-negosiasi-dan-evaluasi-penawaran-rab-dari-beberapa-kontraktor</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/tips-negosiasi-dan-evaluasi-penawaran-rab.webp</image:loc>
+      <image:title>Tips Negosiasi dan Evaluasi Penawaran RAB dari Beberapa Kontraktor</image:title>
+      <image:caption>Proses evaluasi komparasi penawaran Rencana Anggaran Biaya (RAB) dan sesi negosiasi transparan bersama tim kontraktor profesional di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perbandingan-spesifikasi-material-dan-negosiasi-rab.webp</image:loc>
+      <image:title>Tabel Rincian Estimasi Biaya RAB dan Analisis Spesifikasi Material Konstruksi</image:title>
+      <image:caption>Analisis mendalam terhadap lembar rincian Bill of Quantities (BOQ), pemilihan alternatif material setara, dan perhitungan kalkulasi efisiensi biaya konstruksi</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-membaca-dan-memeriksa-gambar-ded-sebelum-konstruksi-dimulai</loc>
     <lastmod>2026-09-18</lastmod>

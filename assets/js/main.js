@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Tips Negosiasi dan Evaluasi Penawaran RAB dari Beberapa Kontraktor",
+        kategori: "manajemen",
+        kategoriLabel: "Manajemen Biaya",
+        tanggal: "19 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/tips-negosiasi-dan-evaluasi-penawaran-rab-dari-beberapa-kontraktor.html",
+        gambar: "assets/img/artikel/tips-negosiasi-dan-evaluasi-penawaran-rab.webp",
+        ringkasan: "Panduan cara mengevaluasi dan bernegosiasi penawaran RAB kontraktor di Surabaya: komparasi spesifikasi material setara, rincian per item, dan termin progres fisik."
+    },
+    {
         judul: "Cara Membaca dan Memeriksa Gambar DED Sebelum Konstruksi Dimulai",
         kategori: "bangun-rumah",
         kategoriLabel: "Bangun Rumah",
