@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,23 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/tren-desain-interior-rumah-modern-2026-material-dan-warna-terkini</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/tren-desain-interior-rumah-modern-2026.webp</image:loc>
+      <image:title>Tren Desain Interior Rumah Modern 2026: Material dan Warna Terkini</image:title>
+      <image:caption>Penerapan palet warna earth tone hangat, furnitur bertekstur alami, dan pencahayaan optimal pada ruang keluarga rumah modern di Surabaya tahun 2026</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/material-alami-dan-ruang-terbuka-interior-2026.webp</image:loc>
+      <image:title>Konsep Ruang Terbuka dan Furnitur Multifungsi Desain Interior Rumah Modern 2026</image:title>
+      <image:caption>Integrasi tata letak ruang terbuka (open plan) yang menyatukan ruang keluarga, meja makan kayu alami, dan dapur bersih dengan pencahayaan alami maksimal</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-negosiasi-dan-evaluasi-penawaran-rab-dari-beberapa-kontraktor</loc>
     <lastmod>2026-09-19</lastmod>

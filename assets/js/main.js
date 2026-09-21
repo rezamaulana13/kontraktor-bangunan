@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Tren Desain Interior Rumah Modern 2026: Material dan Warna Terkini",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "21 Sep 2026",
+        waktuBaca: "6 Menit",
+        url: "artikel/tren-desain-interior-rumah-modern-2026-material-dan-warna-terkini.html",
+        gambar: "assets/img/artikel/tren-desain-interior-rumah-modern-2026.webp",
+        ringkasan: "Panduan tren desain interior rumah modern 2026 di Surabaya: eksplorasi palet warna earth tone hangat, material alami kayu & rotan, konsep ruang terbuka, serta furnitur multifungsi."
+    },
+    {
         judul: "Tips Negosiasi dan Evaluasi Penawaran RAB dari Beberapa Kontraktor",
         kategori: "manajemen",
         kategoriLabel: "Manajemen Biaya",
