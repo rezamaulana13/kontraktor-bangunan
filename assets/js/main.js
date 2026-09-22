@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Cara Merawat Furnitur Kayu dan HPL Agar Awet Bertahun-tahun",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Interior & Finishing",
+        tanggal: "22 Sep 2026",
+        waktuBaca: "6 Menit",
+        url: "artikel/cara-merawat-furnitur-kayu-dan-hpl-agar-awet-bertahun-tahun.html",
+        gambar: "assets/img/artikel/cara-merawat-furnitur-kayu-dan-hpl.webp",
+        ringkasan: "Panduan cara merawat furnitur kayu dan HPL agar awet di Surabaya: tips pembersihan aman, proteksi dari sinar UV dan lembap, serta penanganan goresan kecil."
+    },
+    {
         judul: "Tren Desain Interior Rumah Modern 2026: Material dan Warna Terkini",
         kategori: "bangun-rumah",
         kategoriLabel: "Bangun Rumah",

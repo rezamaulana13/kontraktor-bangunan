@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,23 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-merawat-furnitur-kayu-dan-hpl-agar-awet-bertahun-tahun</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/cara-merawat-furnitur-kayu-dan-hpl.webp</image:loc>
+      <image:title>Cara Merawat Furnitur Kayu dan HPL Agar Awet Bertahun-tahun</image:title>
+      <image:caption>Aktivitas perawatan berkala membersihkan permukaan meja kayu solid dan credenza laminasi HPL dengan kain microfiber lembut di interior rumah Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perawatan-furnitur-custom-dan-laminasi-hpl.webp</image:loc>
+      <image:title>Perawatan Furnitur Custom dan Finishing Laminasi HPL Hunian Modern</image:title>
+      <image:caption>Penataan furnitur custom di ruangan dengan pencahayaan alami terkontrol dan sirkulasi udara optimal menjaga lapisan finishing tetap mengkilap dan bebas jamur</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/tren-desain-interior-rumah-modern-2026-material-dan-warna-terkini</loc>
     <lastmod>2026-09-21</lastmod>
