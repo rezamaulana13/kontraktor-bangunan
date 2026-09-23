@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Tips Memilih Vendor Interior dan Kitchen Set Terpercaya",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Interior & Finishing",
+        tanggal: "23 Sep 2026",
+        waktuBaca: "5 Menit",
+        url: "artikel/tips-memilih-vendor-interior-dan-kitchen-set-terpercaya.html",
+        gambar: "assets/img/artikel/tips-memilih-vendor-interior-kitchen-set.webp",
+        ringkasan: "Panduan cara memilih vendor interior dan kitchen set terpercaya di Surabaya: cek portofolio detail sambungan, sampel material fisik, garansi purna jual, dan transparansi RAB per item."
+    },
+    {
         judul: "Cara Merawat Furnitur Kayu dan HPL Agar Awet Bertahun-tahun",
         kategori: "bangun-rumah",
         kategoriLabel: "Interior & Finishing",

@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,23 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+  <url>
+    <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-memilih-vendor-interior-dan-kitchen-set-terpercaya</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/tips-memilih-vendor-interior-kitchen-set.webp</image:loc>
+      <image:title>Tips Memilih Vendor Interior dan Kitchen Set Terpercaya Surabaya</image:title>
+      <image:caption>Panduan memilih vendor interior dan custom kitchen set terpercaya dengan portofolio teruji dan RAB transparan di Surabaya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/detail-kualitas-dan-garansi-kitchen-set-interior.webp</image:loc>
+      <image:title>Detail Kualitas Sambungan dan Garansi Pemasangan Kitchen Set Interior</image:title>
+      <image:caption>Pemeriksaan detail finishing edging HPL, kerapian engsel slow motion, rel laci, dan sambungan kabinet custom interior</image:caption>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-merawat-furnitur-kayu-dan-hpl-agar-awet-bertahun-tahun</loc>
     <lastmod>2026-09-22</lastmod>
