@@ -2077,4 +2077,23 @@ img,
 .article-body h3 {
     font-size: 1.15rem;
     font-weight: 700;
+}
+
+/* =========================================================
+   STICKY NAVBAR & SIDEBAR Z-INDEX HIERARCHY
+   Mencegah sidebar / konten halaman tembus / menutupi navbar saat di-scroll
+   ========================================================= */
+.navbar,
+.navbar.sticky-top,
+.navbar.fixed-top,
+#mainNavbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1030 !important;
+}
+
+.sidebar-sticky,
+.col-lg-4 .sticky-top,
+.sidebar-widget {
+    z-index: 100 !important;
 }

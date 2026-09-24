@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Perbedaan Preventive Maintenance dan Corrective Maintenance pada Bangunan",
+        kategori: "manajemen",
+        kategoriLabel: "Maintenance Bangunan",
+        tanggal: "24 Sep 2026",
+        waktuBaca: "5 Menit",
+        url: "artikel/perbedaan-preventive-maintenance-dan-corrective-maintenance-pada-bangunan.html",
+        gambar: "assets/img/artikel/perbedaan-preventive-dan-corrective-maintenance-bangunan.webp",
+        ringkasan: "Pahami perbedaan preventive maintenance terjadwal dan corrective maintenance reaktif agar biaya perawatan gedung dan ruko di Surabaya tetap hemat dan optimal."
+    },
+    {
         judul: "Tips Memilih Vendor Interior dan Kitchen Set Terpercaya",
         kategori: "bangun-rumah",
         kategoriLabel: "Interior & Finishing",

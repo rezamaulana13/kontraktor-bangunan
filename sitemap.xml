@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,22 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+    <url>
+      <loc>https://kontraktorbangunansurabaya.web.id/artikel/perbedaan-preventive-maintenance-dan-corrective-maintenance-pada-bangunan</loc>
+      <lastmod>2026-09-24</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perbedaan-preventive-dan-corrective-maintenance-bangunan.webp</image:loc>
+        <image:title>Perbedaan Preventive Maintenance dan Corrective Maintenance pada Bangunan Surabaya</image:title>
+        <image:caption>Panduan komparasi strategi preventive vs corrective maintenance untuk efisiensi biaya operasional bangunan di Surabaya</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/strategi-kombinasi-preventive-corrective-maintenance.webp</image:loc>
+        <image:title>Strategi Kombinasi Maintenance Gedung Efisien di Surabaya</image:title>
+        <image:caption>Inspeksi berkala panel kelistrikan MEP dan peralatan mekanikal gedung komersial di Surabaya</image:caption>
+      </image:image>
+    </url>
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-memilih-vendor-interior-dan-kitchen-set-terpercaya</loc>
     <lastmod>2026-09-23</lastmod>
