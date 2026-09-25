@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Tanda-Tanda Kerusakan Struktur Bangunan yang Wajib Diwaspadai Sejak Dini",
+        kategori: "sipil-dasar",
+        kategoriLabel: "Sipil & Struktur",
+        tanggal: "25 Sep 2026",
+        waktuBaca: "5 Menit",
+        url: "artikel/tanda-tanda-kerusakan-struktur-bangunan-yang-wajib-diwaspadai-sejak-dini.html",
+        gambar: "assets/img/artikel/tanda-tanda-kerusakan-struktur-bangunan.webp",
+        ringkasan: "Kenali tanda kerusakan struktur bangunan sejak dini di Surabaya: analisis retak diagonal dinding, penurunan pondasi, pintu macet, dan korosi besi tulangan beton."
+    },
+    {
         judul: "Perbedaan Preventive Maintenance dan Corrective Maintenance pada Bangunan",
         kategori: "manajemen",
         kategoriLabel: "Maintenance Bangunan",
