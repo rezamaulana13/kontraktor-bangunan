@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Rekomendasi Jasa Maintenance Gedung Bergaransi dan Responsif di Surabaya",
+        kategori: "manajemen",
+        kategoriLabel: "Maintenance Bangunan",
+        tanggal: "26 Sep 2026",
+        waktuBaca: "5 Menit",
+        url: "artikel/rekomendasi-jasa-maintenance-gedung-bergaransi-dan-responsif-di-surabaya.html",
+        gambar: "assets/img/artikel/rekomendasi-jasa-maintenance-gedung-surabaya.webp",
+        ringkasan: "Rekomendasi jasa maintenance gedung bergaransi dan cepat tanggap di Surabaya: kriteria garansi tertulis, waktu respons darurat cepat, dan transparansi kontrak kerja."
+    },
+    {
         judul: "Tanda-Tanda Kerusakan Struktur Bangunan yang Wajib Diwaspadai Sejak Dini",
         kategori: "sipil-dasar",
         kategoriLabel: "Sipil & Struktur",

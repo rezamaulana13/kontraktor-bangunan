@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,23 @@
   </url>
 
   <!-- Detail Artikel Teknis -->
+    <url>
+      <loc>https://kontraktorbangunansurabaya.web.id/artikel/rekomendasi-jasa-maintenance-gedung-bergaransi-dan-responsif-di-surabaya</loc>
+      <lastmod>2026-09-26</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/rekomendasi-jasa-maintenance-gedung-surabaya.webp</image:loc>
+        <image:title>Rekomendasi Jasa Maintenance Gedung Bergaransi dan Responsif di Surabaya</image:title>
+        <image:caption>Layanan pemeliharaan berkala fasad, kaca, dan struktur gedung bertingkat di Surabaya bergaransi resmi</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/kriteria-garansi-dan-respons-maintenance-gedung.webp</image:loc>
+        <image:title>Kriteria Garansi dan Waktu Respons Cepat Maintenance Gedung Surabaya</image:title>
+        <image:caption>Inspeksi teknis sistem MEP dan panel kelistrikan gedung komersial untuk penanganan darurat responsif di Surabaya</image:caption>
+      </image:image>
+    </url>
+
     <url>
       <loc>https://kontraktorbangunansurabaya.web.id/artikel/tanda-tanda-kerusakan-struktur-bangunan-yang-wajib-diwaspadai-sejak-dini</loc>
       <lastmod>2026-09-25</lastmod>
