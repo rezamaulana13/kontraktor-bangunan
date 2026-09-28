@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Tips Memilih Lahan dan Menentukan Orientasi Rumah Sebelum Membangun di Surabaya",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "28 Sep 2026",
+        waktuBaca: "7 Menit",
+        url: "artikel/tips-memilih-lahan-dan-menentukan-orientasi-rumah-sebelum-membangun-di-surabaya.html",
+        gambar: "assets/img/artikel/tips-memilih-lahan-dan-menentukan-orientasi-rumah-surabaya.webp",
+        ringkasan: "Panduan memilih lahan dan menentukan orientasi rumah sebelum membangun di Surabaya: evaluasi kontur tanah, sistem drainase, akses jalan, arah matahari, serta ventilasi silang."
+    },
+    {
         judul: "Rekomendasi Jasa Maintenance Gedung Bergaransi dan Responsif di Surabaya",
         kategori: "manajemen",
         kategoriLabel: "Maintenance Bangunan",

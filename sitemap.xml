@@ -197,7 +197,23 @@
     </image:image>
   </url>
 
-  <!-- Detail Artikel Teknis -->
+    <!-- Detail Artikel Teknis -->
+    <url>
+      <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-memilih-lahan-dan-menentukan-orientasi-rumah-sebelum-membangun-di-surabaya</loc>
+      <lastmod>2026-09-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/tips-memilih-lahan-dan-menentukan-orientasi-rumah-surabaya.webp</image:loc>
+        <image:title>Tips Memilih Lahan dan Menentukan Orientasi Rumah Sebelum Membangun di Surabaya</image:title>
+        <image:caption>Survey pengukuran kontur tanah, evaluasi elevasi drainase lingkungan, dan penentuan arah orientasi kavling sebelum memulai pembangunan rumah di Surabaya tahun 2026</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/orientasi-bangunan-rumah-arah-matahari-dan-angin-surabaya.webp</image:loc>
+        <image:title>Desain Orientasi Rumah Tropis Modern Menghadap Arah Matahari dan Angin Alami di Surabaya</image:title>
+        <image:caption>Penerapan kisi-kisi secondary skin kayu, kanopi kantilever peneduh, serta bukaan ventilasi silang pada rumah tropis modern untuk mereduksi panas matahari di Surabaya</image:caption>
+      </image:image>
+    </url>
     <url>
       <loc>https://kontraktorbangunansurabaya.web.id/artikel/rekomendasi-jasa-maintenance-gedung-bergaransi-dan-responsif-di-surabaya</loc>
       <lastmod>2026-09-26</lastmod>
