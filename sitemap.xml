@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,22 @@
   </url>
 
     <!-- Detail Artikel Teknis -->
+    <url>
+      <loc>https://kontraktorbangunansurabaya.web.id/artikel/perbandingan-atap-genteng-beton-metal-dan-spandek-untuk-rumah-tinggal</loc>
+      <lastmod>2026-09-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/perbandingan-atap-genteng-beton-metal-spandek-rumah-tinggal.webp</image:loc>
+        <image:title>Perbandingan Atap Genteng Beton, Metal, dan Spandek untuk Rumah Tinggal</image:title>
+        <image:caption>Perbandingan visual atap genteng beton flat dan atap metal galvalum pada arsitektur rumah tinggal tropis modern di Surabaya tahun 2026</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/karakteristik-dan-pemasangan-atap-genteng-beton-metal-spandek.webp</image:loc>
+        <image:title>Karakteristik dan Pemasangan Rangka Atap Genteng Beton Metal dan Spandek Surabaya</image:title>
+        <image:caption>Pemasangan rangka atap baja ringan dengan lapisan insulasi termal dan penutup genteng beton pada proyek rumah tinggal di Surabaya tahun 2026</image:caption>
+      </image:image>
+    </url>
     <url>
       <loc>https://kontraktorbangunansurabaya.web.id/artikel/tips-memilih-lahan-dan-menentukan-orientasi-rumah-sebelum-membangun-di-surabaya</loc>
       <lastmod>2026-09-28</lastmod>

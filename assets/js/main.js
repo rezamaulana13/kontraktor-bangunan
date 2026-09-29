@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Perbandingan Atap Genteng Beton, Metal, dan Spandek untuk Rumah Tinggal",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Bangun Rumah",
+        tanggal: "29 Sep 2026",
+        waktuBaca: "5 Menit",
+        url: "artikel/perbandingan-atap-genteng-beton-metal-dan-spandek-untuk-rumah-tinggal.html",
+        gambar: "assets/img/artikel/perbandingan-atap-genteng-beton-metal-spandek-rumah-tinggal.webp",
+        ringkasan: "Perbandingan lengkap atap genteng beton, metal (galvalum), dan spandek untuk rumah tinggal di Surabaya: daya tahan, peredaman panas & suara, bobot struktur, dan efisiensi anggaran."
+    },
+    {
         judul: "Tips Memilih Lahan dan Menentukan Orientasi Rumah Sebelum Membangun di Surabaya",
         kategori: "bangun-rumah",
         kategoriLabel: "Bangun Rumah",
