@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,22 @@
   </url>
 
     <!-- Detail Artikel Teknis -->
+    <url>
+      <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-menyusun-kontrak-kerja-spk-yang-melindungi-pemilik-rumah</loc>
+      <lastmod>2026-09-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/cara-menyusun-kontrak-kerja-spk-rumah.webp</image:loc>
+        <image:title>Cara Menyusun Kontrak Kerja (SPK) yang Melindungi Pemilik Rumah</image:title>
+        <image:caption>Penyusunan Surat Perjanjian Kerja (SPK) konstruksi rumah tinggal lengkap dengan lampiran gambar kerja DED, RAB terperinci, dan klausul hukum yang melindungi pemilik rumah di Surabaya tahun 2026</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/klausul-denda-dan-skema-pembayaran-spk.webp</image:loc>
+        <image:title>Klausul Denda Keterlambatan dan Skema Pembayaran Bertahap SPK Rumah Surabaya</image:title>
+        <image:caption>Konsultasi dan penandatanganan SPK konstruksi rumah tinggal bersama tim kontraktor profesional, mencakup kurva-S milestone dan skema termin pembayaran transparan di Surabaya</image:caption>
+      </image:image>
+    </url>
     <url>
       <loc>https://kontraktorbangunansurabaya.web.id/artikel/perbandingan-atap-genteng-beton-metal-dan-spandek-untuk-rumah-tinggal</loc>
       <lastmod>2026-09-29</lastmod>

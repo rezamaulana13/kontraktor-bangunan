@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Cara Menyusun Kontrak Kerja (SPK) yang Melindungi Pemilik Rumah",
+        kategori: "legalitas",
+        kategoriLabel: "Legalitas & Izin",
+        tanggal: "30 Sep 2026",
+        waktuBaca: "6 Menit",
+        url: "artikel/cara-menyusun-kontrak-kerja-spk-yang-melindungi-pemilik-rumah.html",
+        gambar: "assets/img/artikel/cara-menyusun-kontrak-kerja-spk-rumah.webp",
+        ringkasan: "Panduan menyusun Surat Perjanjian Kerja (SPK) konstruksi rumah tinggal di Surabaya: kejelasan lingkup kerja, spesifikasi material, skema pembayaran bertahap, klausul denda, dan garansi."
+    },
+    {
         judul: "Perbandingan Atap Genteng Beton, Metal, dan Spandek untuk Rumah Tinggal",
         kategori: "bangun-rumah",
         kategoriLabel: "Bangun Rumah",
