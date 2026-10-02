@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Renovasi Atap dan Plafon Rumah agar Bebas Bocor dan Rembes",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Renovasi Bangunan",
+        tanggal: "02 Okt 2026",
+        waktuBaca: "6 Menit",
+        url: "artikel/renovasi-atap-dan-plafon-rumah-agar-bebas-bocor-dan-rembes.html",
+        gambar: "assets/img/artikel/renovasi-atap-dan-plafon-rumah-bebas-bocor.webp",
+        ringkasan: "Panduan renovasi atap dan plafon rumah di Surabaya agar bebas bocor dan rembes: pemeriksaan rangka atap, genteng, talang, waterproofing dak beton, dan plafon tahan air."
+    },
+    {
         judul: "Cara Menyusun Kontrak Kerja (SPK) yang Melindungi Pemilik Rumah",
         kategori: "legalitas",
         kategoriLabel: "Legalitas & Izin",

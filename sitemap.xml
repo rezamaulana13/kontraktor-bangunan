@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,22 @@
   </url>
 
     <!-- Detail Artikel Teknis -->
+    <url>
+      <loc>https://kontraktorbangunansurabaya.web.id/artikel/renovasi-atap-dan-plafon-rumah-agar-bebas-bocor-dan-rembes</loc>
+      <lastmod>2026-10-02</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/renovasi-atap-dan-plafon-rumah-bebas-bocor.webp</image:loc>
+        <image:title>Renovasi Atap dan Plafon Rumah agar Bebas Bocor dan Rembes di Surabaya</image:title>
+        <image:caption>Pekerjaan renovasi rangka atap baja ringan dan pemasangan plafon gypsum water resistant pada hunian modern di Surabaya tahun 2026</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/waterproofing-dak-beton-dan-perbaikan-plafon-surabaya.webp</image:loc>
+        <image:title>Penerapan Waterproofing Dak Beton Sebelum Plafon Baru Dipasang Surabaya</image:title>
+        <image:caption>Aplikasi pelapis waterproofing membrane elastis pada permukaan dak beton rumah guna mencegah rembesan air ke plafon di Surabaya tahun 2026</image:caption>
+      </image:image>
+    </url>
     <url>
       <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-menyusun-kontrak-kerja-spk-yang-melindungi-pemilik-rumah</loc>
       <lastmod>2026-09-30</lastmod>
