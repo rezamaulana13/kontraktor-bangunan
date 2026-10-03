@@ -188,7 +188,7 @@
   <!-- Halaman Artikel & Edukasi -->
   <url>
     <loc>https://kontraktorbangunansurabaya.web.id/artikel</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -198,6 +198,22 @@
   </url>
 
     <!-- Detail Artikel Teknis -->
+    <url>
+      <loc>https://kontraktorbangunansurabaya.web.id/artikel/cara-memperkuat-struktur-rumah-lama-sebelum-menambah-lantai</loc>
+      <lastmod>2026-10-03</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.85</priority>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/cara-memperkuat-struktur-rumah-lama-sebelum-menambah-lantai.webp</image:loc>
+        <image:title>Cara Memperkuat Struktur Rumah Lama Sebelum Menambah Lantai di Surabaya</image:title>
+        <image:caption>Inspeksi teknis dan evaluasi daya dukung pondasi serta kolom eksisting sebelum pelaksanaan proyek penambahan lantai 2 pada rumah lama di Surabaya tahun 2026</image:caption>
+      </image:image>
+      <image:image>
+        <image:loc>https://kontraktorbangunansurabaya.web.id/assets/img/artikel/metode-jacketing-dan-perkuatan-kolom-rumah-lama.webp</image:loc>
+        <image:title>Metode Jacketing Kolom dan Penambahan Kolom Praktis Struktur Rumah Lama di Surabaya</image:title>
+        <image:caption>Aplikasi perkuatan kolom dengan metode concrete jacketing: penambahan tulangan sengkang baru dan bekisting sebelum grouting beton berkekuatan tinggi di Surabaya tahun 2026</image:caption>
+      </image:image>
+    </url>
     <url>
       <loc>https://kontraktorbangunansurabaya.web.id/artikel/renovasi-atap-dan-plafon-rumah-agar-bebas-bocor-dan-rembes</loc>
       <lastmod>2026-10-02</lastmod>

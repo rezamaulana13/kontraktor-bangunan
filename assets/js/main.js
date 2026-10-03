@@ -134,6 +134,16 @@ const dataFaqBeranda = [
 // 7. DATA ARTIKEL (Pengganti Database — render dinamis di artikel.html)
 const dataArtikel = [
     {
+        judul: "Cara Memperkuat Struktur Rumah Lama Sebelum Menambah Lantai",
+        kategori: "bangun-rumah",
+        kategoriLabel: "Renovasi Bangunan",
+        tanggal: "03 Okt 2026",
+        waktuBaca: "6 Menit",
+        url: "artikel/cara-memperkuat-struktur-rumah-lama-sebelum-menambah-lantai.html",
+        gambar: "assets/img/artikel/cara-memperkuat-struktur-rumah-lama-sebelum-menambah-lantai.webp",
+        ringkasan: "Panduan cara memperkuat struktur rumah lama sebelum menambah lantai di Surabaya: evaluasi kapasitas pondasi dan kolom eksisting, uji hammer test, metode jacketing, dan penambahan kolom praktis."
+    },
+    {
         judul: "Renovasi Atap dan Plafon Rumah agar Bebas Bocor dan Rembes",
         kategori: "bangun-rumah",
         kategoriLabel: "Renovasi Bangunan",
